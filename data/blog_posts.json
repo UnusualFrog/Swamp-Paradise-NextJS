@@ -1,70 +1,12 @@
 {
-  "1": {
-    "ID": 1,
-    "main_content": "FUCKLorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus eduis convallis. Tempus eleo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.eed Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus eleo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti socioseeeeeeeeequ. Ad litora torquent per conubia nostra inceptose himeeeeeenaeos. eedee",
-    "date_posted": "Sat, 02 May 2026 21:57:06 GMT",
-    "tags": [
-      "lorem ipsum🧾",
-      "filler⭐️"
-    ]
-  },
-  "2": {
-    "ID": 2,
-    "main_content": "This is a test post for baseline data",
-    "date_posted": "Sat, 02 May 2026 21:57:37 GMT",
-    "tags": [
-      "frog🐸",
-      "trans🏳️‍⚧️"
-    ]
-  },
-  "3": {
-    "ID": 3,
-    "main_content": "This is a new test filler post for new baseline data. Have fun and enjoy yourself.",
-    "date_posted": "Sat, 02 May 2026 22:01:43 GMT",
-    "tags": [
-      "mac tonight🌜️",
-      "Pie🥮"
-    ]
-  },
-  "4": {
-    "ID": 4,
-    "main_content": "I love my girlfriend more than anything in the world",
-    "date_posted": "Sat, 02 May 2026 22:02:24 GMT",
-    "tags": [
-      "love❤️",
-      "lesbians👭"
-    ]
-  },
-  "5": {
-    "ID": 5,
-    "main_content": "abced",
-    "date_posted": "Sat, 02 May 2026 22:17:30 GMT",
-    "tags": [
-      "def🥰"
-    ]
-  },
-  "6": {
-    "ID": 6,
-    "main_content": "here it goes",
-    "date_posted": "Sat, 02 May 2026 22:17:42 GMT",
-    "tags": [
-      "wawa🥰"
-    ]
-  },
-  "7": {
-    "ID": 7,
-    "main_content": "Here is a test example post for integration with swamp paradise file strucuture",
-    "date_posted": "Sat, 02 May 2026 22:26:08 GMT",
-    "tags": [
-      "test👩‍💻"
-    ]
-  },
-  "8": {
+"1": {
     "ID": 8,
-    "main_content": "Here is another example integration post",
-    "date_posted": "Sat, 02 May 2026 22:27:10 GMT",
+    "main_content": "Hello World! This is my first real blog post so it will probably be a bit awkward. Today was nice, it was really sunny and warm, in spite of strong wind.\n\nI wanted to spend some time outside so I decided to clean up some trash in the lawn and cleaned the bird feeders so I can set them up now that winter is over. I'm looking forward to getting back into birding, I've been too stressed the last few months to make time for it.\n\nGF and I got groceries which was nice, especially the yummy cream buns they sell. We watched the end of the Pesci fight in Jojo part V, really a top tier fight. The train is a really cool setting for a stand fight, Araki must have thought so too given it comes back for part 7. \n\nWe're going swimming tonight which will be fun, even though I'm quite sore from a new workout routine. Overall it's been a really nice day.",
+    "date_posted": "Tue, 05 May 2026 22:16:13 GMT",
     "tags": [
-      "testing👩‍💻"
+      "diary📗",
+      "bird🦆",
+      "jojo⭐️"
     ]
   }
 }
