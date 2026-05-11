@@ -1,5 +1,5 @@
 import localFont from 'next/font/local'
-
+import Image from 'next/image';
 
 // Import Local Font
 const myFont = localFont({
@@ -15,9 +15,23 @@ export default function BlogPost(blog_post_data) {
   let main_content = blog_post_data.blog_post_data.main_content
   let date = blog_post_data.blog_post_data.date_posted
   let tags = blog_post_data.blog_post_data.tags
+  let img = blog_post_data.blog_post_data.img
+  console.log(img)
   
   return (
     <div className='tower-blog-post-base'>
+
+      {
+        img != '' && 
+        img != null && 
+        <Image
+            src={img}
+            width={1920}
+            height={1080}
+            alt="Picture of the author"
+            className="tower-blog-post-image" 
+        ></Image>
+      }
 
       {/* Main Text Content */}
       <div className='tower-blog-post-content'>

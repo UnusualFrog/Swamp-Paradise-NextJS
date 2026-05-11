@@ -45,8 +45,8 @@ export default async function Home() {
                     {/* Profile Picture */}
                     <Image
                         src="/pfp.png"
-                        width={200}
-                        height={200}
+                        width={1920}
+                        height={1080}
                         alt="Picture of the author"
                         className="pfp" 
                     ></Image>
