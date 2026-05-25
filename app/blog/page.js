@@ -23,6 +23,7 @@ export default async function Home() {
     const file = await fs.readFile(process.cwd() + '/data/blog_posts.json', 'utf8');
     const data = JSON.parse(file);
     const blog_post_data = [];
+    let post_count = 0;
 
     // Convert from object of objects to array of objects to allow for .map() usage )
     for (let [key, value] of Object.entries(data)) {
@@ -33,7 +34,7 @@ export default async function Home() {
     blog_post_data.reverse()
 
    return (
-    <div className='h-1000'>
+    <div className="h-2000">
         <div className='container-blog'>
 
             {/* BIO CONTENT (LEFT TOWER) */}
