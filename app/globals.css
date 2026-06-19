@@ -51,6 +51,10 @@
   height: 20px;
 }
 
+.update{ 
+  background-color: red;
+}
+
 /* ====== Layout Styles ====== */
 .page-content {
   color: var(--foreground);
@@ -336,7 +340,7 @@
 }
 
 .tower-blog-post-text {
-  @apply text-lg text-left m-2 text-wrap
+  @apply text-lg text-left m-2 text-wrap whitespace-pre-line
 }
 
 .tower-blog-date-text {
