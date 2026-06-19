@@ -192,12 +192,12 @@
 
 .bio-header {
   font-size: xxx-large;
-  margin: 0rem 0rem 0rem 0rem;
+  margin: 0rem 0.5rem 0rem 0rem;
   text-align: center;
 }
 
 .bio-text {
-  margin: 0rem 0rem 0rem 0rem;
+  margin: 0rem 0.5rem 0rem 0rem;
   text-wrap: wrap;
   font-size: x-large;
 }
