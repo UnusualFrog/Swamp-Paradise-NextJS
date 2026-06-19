@@ -87,8 +87,10 @@ export default function Home() {
 
             </div>
 
-            <div className='blinkies-base'>
-
+            <div className='updates-base'>
+              <div className='updates-content'>
+                <p className={bio_header_style}>====================SITE UPDATES====================</p>
+              </div>
             </div>
 
 
