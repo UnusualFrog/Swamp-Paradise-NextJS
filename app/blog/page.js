@@ -14,19 +14,15 @@ const myFont = localFont({
 const pronoun_btn_style = 'pronoun-button ' + myFont.className
 const bio_text_style = 'tower-bio-content-text ' + myFont.className
 const blog_header_text_style = 'tower-blog-header-text ' + myFont.className
-const blog_post_body_style = 'tower-blog-post-text ' + myFont.className
-const blog_post_date_style = 'tower-blog-date-text ' + myFont.className
-const blog_post_tag_style = 'tower-blog-tags-text ' + myFont.className
 
 export default async function Home() {
     // Load blog post data from json
     const file = await fs.readFile(process.cwd() + '/data/blog_posts.json', 'utf8');
     const data = JSON.parse(file);
     const blog_post_data = [];
-    let post_count = 0;
 
     // Convert from object of objects to array of objects to allow for .map() usage )
-    for (let [key, value] of Object.entries(data)) {
+    for (let [, value] of Object.entries(data)) {
         blog_post_data.push(value)
     }
 
