@@ -30,7 +30,7 @@ export default async function Home() {
     blog_post_data.reverse()
 
    return (
-    <div className="h-2000">
+    <div className="h-auto">
         <div className='container-blog'>
 
             {/* BIO CONTENT (LEFT TOWER) */}
