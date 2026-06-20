@@ -2,7 +2,6 @@ import { promises as fs } from 'fs';
 import '../globals.css';
 import Image from 'next/image';
 import localFont from 'next/font/local'
-import BlogPost from '../../components/blog_post'
 import BlogPostList from '../../components/blog_post_list'
 
 
@@ -16,7 +15,9 @@ const pronoun_btn_style = 'pronoun-button ' + myFont.className
 const bio_text_style = 'tower-bio-content-text ' + myFont.className
 const blog_header_text_style = 'tower-blog-header-text ' + myFont.className
 
-export default async function Home() {
+
+
+export default async function Home({ searchParams }) {
     // Load blog post data from json
     const file = await fs.readFile(process.cwd() + '/data/blog_posts.json', 'utf8');
     const data = JSON.parse(file);
@@ -29,6 +30,17 @@ export default async function Home() {
 
     // Reverse post order to maintain chronology
     blog_post_data.reverse()
+
+    // Get current filter tag from URL
+    const { filterTag } = await searchParams
+
+    // Filter posts by tag
+    let filtered_data;
+    if (filterTag) {
+        filtered_data = blog_post_data.filter(e => e.tags.includes(filterTag))
+    }
+
+    console.log(filtered_data)
 
     return (
         <div className="h-auto">
@@ -85,7 +97,7 @@ export default async function Home() {
                                 ))
                             }
                         </div> */}
-                        <BlogPostList data={blog_post_data}></BlogPostList>
+                        <BlogPostList data={filtered_data ? filtered_data : blog_post_data}></BlogPostList>
 
 
 

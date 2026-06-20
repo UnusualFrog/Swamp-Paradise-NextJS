@@ -1,5 +1,3 @@
-"use client"
-
 import BlogPost from '../components/blog_post'
 
 export default function BlogPostList({ data }) {
