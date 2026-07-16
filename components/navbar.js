@@ -13,8 +13,8 @@ export default function NavBar() {
   const navLocations =  [
         {"name":"Home", "href":"/"},
         {"name":"Blog", "href":"/blog"},
-        {"name":"Gallery", "href":"/gallery"},
-        {"name":"Games", "href":"/games"},
+        // {"name":"Gallery", "href":"/gallery"},
+        // {"name":"Games", "href":"/games"},
         {"name":"Projects", "href":"/projects"},
     ]
  
