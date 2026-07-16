@@ -29,10 +29,14 @@ export default function BlogPost(blog_post_data) {
 
   // useEffect will append the query param whenever the state changes
   useEffect(() => {
-    router.push(`?filterTag=${filterTag}`);
+    if (filterTag) {
+      router.push(`?filterTag=${filterTag}`);
+      console.log(filterTag)
+    }
+    
   }, [filterTag]);
 
-  
+
   return (
     <div className='tower-blog-post-base'>
 
