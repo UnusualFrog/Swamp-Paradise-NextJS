@@ -50,7 +50,7 @@ export default function Home() {
                     Welcome to my Site! My name is Julia. This site is my creative outlet. I am a programmer and I like to dabble in digital art & game dev. Checkout my blog for thoughts on birds, frogs, and other less important things.
                   </p>
                 </div>
-
+          
 
               </div>
 
@@ -87,6 +87,7 @@ export default function Home() {
 
             </div>
 
+            {/* SITE UPDATES */}
             <div className='updates-base'>
               <div className='updates-content'>
                 <p className={bio_header_style}>===============SITE UPDATES===============</p>
