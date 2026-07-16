@@ -44,7 +44,8 @@ export default function BlogPost(blog_post_data) {
             width={1920}
             height={1080}
             alt="Picture of the author"
-            className="tower-blog-post-image" 
+            className="tower-blog-post-image"
+            unoptimized={true}
         ></Image>
       }
 
