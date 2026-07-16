@@ -89,7 +89,10 @@ export default function Home() {
 
             <div className='updates-base'>
               <div className='updates-content'>
-                <p className={bio_header_style}>====================SITE UPDATES====================</p>
+                <p className={bio_header_style}>===============SITE UPDATES===============</p>
+                <ul className='updates-list'>
+                  <li className={bio_text_style}>2026/07/16 - Tag system fully functional</li>
+                </ul>
               </div>
             </div>
 
