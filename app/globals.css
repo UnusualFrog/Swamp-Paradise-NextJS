@@ -16,6 +16,7 @@
   --pink-shadow: #d490e6;
   --green-light: #cbffe8;
   --green-dark: #84ffc9;
+  --green-ultra-light: #f4fffa;
   --transparent: rgba(0, 0, 0, 0.5);
 }
 
@@ -25,6 +26,7 @@
   --color-pink-t4t: #eca0ff;
   --color-pink-shadow-t4t: #d490e6;
   --color-green-light: #cbffe8;
+  --color-green-ultra-light: #f4fffa;
   --color-green-dark: #84ffc9;
 }
 
@@ -52,7 +54,7 @@
 }
 
 .update {
-  color: red;
+  color: green;
 }
 
 /* ====== Layout Styles ====== */
@@ -376,7 +378,7 @@
 }
 
 .tower-blog-tags-text {
-  @apply text-lg text-center p-1 my-3 text-wrap font-bold border-2 border-blue-t4t bg-green-light
+  @apply text-lg text-center p-1 my-3 text-wrap font-bold border-2 border-blue-t4t bg-green-light hover:bg-green-ultra-light
 }
 
 
