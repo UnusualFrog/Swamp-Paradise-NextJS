@@ -75,142 +75,80 @@ export default function Home() {
                 <div className='bio-blinkies-container'>
                   <p className={bio_header_style}>===========BLINKIES===========</p>
                   <div className='bio-blinkies-content'>
-                    <Image
-                      src="/blinkies/anything_but_chrome.gif"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img"
-                      loading="eager"
-                    ></Image>
-                    <Image
-                      src="/blinkies/annoying_dog.webp"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img"
-                      loading="eager"
-                    ></Image>
-                    <Image
-                      src="/blinkies/autism.gif"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img-flex w-30"
-                      loading="eager"
-                    ></Image>
-                    <Image
-                      src="/blinkies/axolotl.gif"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img"
-                      loading="eager"
-                    ></Image>
-                    <Image
-                      src="/blinkies/boat_o_cross.png"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img-flex w-30"
-                      loading="eager"
-                    ></Image>
-                    <Image
-                      src="/blinkies/city_stars.gif"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img-flex w-35"
-                      loading="eager"
-                    ></Image>
+                    <Blinky
+                      imgPath="/blinkies/anything_but_chrome.gif"
+                      // audioPath=""
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/annoying_dog.webp"
+                      audioPath="/mp3/toby_fox_dog.mp3"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/autism.gif"
+                      // audioPath=""
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/axolotl.gif"
+                      // audioPath=""
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/boat_o_cross.png"
+                      // audioPath=""
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/city_stars.gif"
+                      // audioPath=""
+                      width={35}
+                    ></Blinky>
                     <Blinky
                       imgPath="/blinkies/da_blinkie.gif"
                       audioPath="/mp3/da_vinky.mp3"
                     ></Blinky>
-                    <Image
-                      src="/blinkies/deltarune_dance.webp"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img-flex w-25"
-                      loading="eager"
-                    ></Image>
-                    <Image
-                      src="/blinkies/doom_hud.gif"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img-flex w-50"
-                      loading="eager"
-                    ></Image>
-                    <Image
-                      src="/blinkies/dvd_bounce.gif"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img-flex w-30"
-                      loading="eager"
-                    ></Image>
-                    <Image
-                      src="/blinkies/dvd_slot.gif"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img-flex w-30"
-                      loading="eager"
-                    ></Image>
-                    <Image
-                      src="/blinkies/eat_pant.png"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img-flex w-20"
-                      loading="eager"
-                    ></Image>
+                    <Blinky
+                      imgPath="/blinkies/deltarune_dance.webp"
+                      // audioPath=""
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/doom_hud.gif"
+                      audioPath="/mp3/doom_shotgun.mp3"
+                      width={35}
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/dvd_bounce.gif"
+                      // audioPath=""
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/dvd_slot.gif"
+                      // audioPath=""
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/eat_pant.png"
+                      // audioPath=""
+                    ></Blinky>
                     <Blinky
                       imgPath="/blinkies/eddsworld.gif"
                       audioPath="/mp3/eddsworld.mp3"
                     ></Blinky>
-                    <Image
-                      src="/blinkies/ghastly_rainbow.gif"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img-flex w-20"
-                      loading="eager"
-                    ></Image>
-                    <Image
-                      src="/blinkies/gimp_user.jpg"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img-flex w-20"
-                      loading="eager"
-                    ></Image>
-                    <Image
-                      src="/blinkies/got_html.jpg"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img-flex w-20"
-                      loading="eager"
-                    ></Image>
-                    <Image
-                      src="/blinkies/indica_girlie.gif"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img-flex w-35"
-                      loading="eager"
-                    ></Image>
-                    <Image
-                      src="/blinkies/keroppi.gif"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img-flex w-25"
-                      loading="eager"
-                    ></Image>
+                    <Blinky
+                      imgPath="/blinkies/ghastly_rainbow.gif"
+                      audioPath="/mp3/ghastly_cry.mp3"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/gimp_user.jpg"
+                      // audioPath=""
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/got_html.jpg"
+                      // audioPath=""
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/indica_girlie.gif"
+                      // audioPath=""
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/keroppi.gif"
+                      // audioPath=""
+                    ></Blinky>
                     <Blinky
                       imgPath={"/blinkies/jerma.gif"}
                       audioPath={"/mp3/teacher_jerma.mp3"}

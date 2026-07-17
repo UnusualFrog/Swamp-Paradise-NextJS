@@ -3,7 +3,7 @@
 import { useRef } from 'react';
 import Image from 'next/image';
 
-export default function Blinky( {imgPath, audioPath}) {
+export default function Blinky( {imgPath, audioPath, width}) {
   const audioRef = useRef();
 
   const play = () => {
@@ -14,6 +14,10 @@ export default function Blinky( {imgPath, audioPath}) {
     }
   }
 
+  if (!width) {
+    width = 25;
+  }
+  
   return (
     <div>
       {/* <button onClick={play}>Play</button> */}
@@ -22,7 +26,7 @@ export default function Blinky( {imgPath, audioPath}) {
         width={400}
         height={400}
         alt="Blinky"
-        className="blinky-img-flex w-25"
+        className={"blinky-img-flex w-" + width}
         loading="eager"
         onClick={play}
       ></Image>
