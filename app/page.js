@@ -30,72 +30,88 @@ export default function Home() {
 
             <div className='bio-base'>
 
-              <div className='bio-content'>
+              <div className='bio-left-col'>
 
-                <div className="bio-pfp-col">
-                  <Image
-                    src="/pfp.png"
-                    width={1920}
-                    height={1080}
-                    alt="Picture of the author"
-                    className="pfp-home"
-                    loading="eager"
-                  ></Image>
-                  <button disabled={true} className={pronoun_btn_style}>♀️ - She/Her</button>
+                {/* BIO DESCRIPTION & PFP */}
+                <div className='bio-content'>
+
+                  <div className="bio-pfp-col">
+                    <Image
+                      src="/pfp.png"
+                      width={1920}
+                      height={1080}
+                      alt="Picture of the author"
+                      className="pfp-home"
+                      loading="eager"
+                    ></Image>
+                    <button disabled={true} className={pronoun_btn_style}>♀️ - She/Her</button>
+                  </div>
+
+                  <div className="bio-text-container">
+                    <p className={bio_header_style}>==========BIO==========</p>
+                    <p className={bio_text_style}>
+                      Welcome to my Site! My name is Julia. This site is my creative outlet. I am a programmer and I like to dabble in digital art & game dev. Checkout my blog for thoughts on birds, frogs, and other less important things.
+                    </p>
+                  </div>
+
+
                 </div>
 
-                <div className="bio-text-container">
-                  <p className={bio_header_style}>==========BIO==========</p>
-                  <p className={bio_text_style}>
-                    Welcome to my Site! My name is Julia. This site is my creative outlet. I am a programmer and I like to dabble in digital art & game dev. Checkout my blog for thoughts on birds, frogs, and other less important things.
-                  </p>
+                <div className='bio-blinkies-container'>
+                  <p className={bio_header_style}>===========BLINKIES===========</p>
                 </div>
-          
-
+                
               </div>
 
-              <div className='bio-links'>
-                <p className={bio_header_style}>======LINKS======</p>
+              <div className='bio-right-col'>
 
-                <Link href="https://unusualfrog.itch.io/">
-                  <Image
-                    src="https://static.itch.io/images/logo-black-new.svg"
-                    width={400}
-                    height={400}
-                    alt="Itchio.io Logo"
-                    className="bio-links-img"
-                    loading="eager"
-                  ></Image>
-                  <p>---------------------------------------------------------------------</p>
-                  <p className={bio_link_text_style}>My games! (Playabled in browser)</p>
-                </Link>
+                {/* LINKS */}
+                <div className='bio-links'>
+                  <p className={bio_header_style}>===========LINKS===========</p>
 
-                <Link href="https://www.youtube.com/@unusualfrog779">
-                  <Image
-                    src="/logo_yt_bk.png"
-                    width={400}
-                    height={400}
-                    alt="Youtube Logo"
-                    className="bio-links-img"
-                    loading="eager"
-                  ></Image>
-                  <p>---------------------------------------------------------------------</p>
-                  <p className={bio_link_text_style}>Various art projects and shitposts</p>
-                </Link>
+                  <Link href="https://unusualfrog.itch.io/">
+                    <Image
+                      src="https://static.itch.io/images/logo-black-new.svg"
+                      width={400}
+                      height={400}
+                      alt="Itchio.io Logo"
+                      className="bio-links-img"
+                      loading="eager"
+                    ></Image>
+                    <p className='text-center'>---------------------------------------------------------------------</p>
+                    <p className={bio_link_text_style}>My games! (Playabled in browser)</p>
+                  </Link>
 
+                  <Link href="https://www.youtube.com/@unusualfrog779">
+                    <Image
+                      src="/logo_yt_bk.png"
+                      width={400}
+                      height={400}
+                      alt="Youtube Logo"
+                      className="bio-links-img"
+                      loading="eager"
+                    ></Image>
+                    <p className='text-center'>---------------------------------------------------------------------</p>
+                    <p className={bio_link_text_style}>Various art projects and shitposts</p>
+                  </Link>
+
+                </div>
+
+                {/* SITE UPDATES */}
+                <div className='updates-base'>
+                  <div className='updates-content'>
+                    <p className={bio_header_style}>==========UPDATES==========</p>
+                    <ul className='updates-list'>
+                      <li className={bio_text_style}>2026/07/16 - Tag system fully functional</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
+
 
             </div>
 
-            {/* SITE UPDATES */}
-            <div className='updates-base'>
-              <div className='updates-content'>
-                <p className={bio_header_style}>===============SITE UPDATES===============</p>
-                <ul className='updates-list'>
-                  <li className={bio_text_style}>2026/07/16 - Tag system fully functional</li>
-                </ul>
-              </div>
-            </div>
+
 
 
 
