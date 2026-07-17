@@ -432,3 +432,12 @@
   margin-top: 15px;
   border: 10px solid var(--green-light)
 }
+
+/* ========== AUDIO PLAYER========= */
+.audio-player-container {
+  width: 20%;
+  height: 7.5%;
+  position: fixed;
+  left: 10px;
+  bottom: 350px;
+}
