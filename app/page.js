@@ -106,7 +106,7 @@ export default function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/deltarune_dance.webp"
-                      // audioPath=""
+                      audioPath="/mp3/ralsei_splat.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/doom_hud.gif"
@@ -123,7 +123,7 @@ export default function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/eat_pant.png"
-                      // audioPath=""
+                      audioPath="/mp3/eat_pant.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/eddsworld.gif"
@@ -159,14 +159,18 @@ export default function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/i_block_ads.gif"
-                      // audioPath="/mp3/"
+                      audioPath="/mp3/portal2_buzzer.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/i_heart_dolphins.gif"
-                      // audioPath="/mp3/"
+                      audioPath="/mp3/spongebob_dolphin.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/i_saw_the_bodies.gif"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/unregistered_hypercam.gif"
                       // audioPath="/mp3/"
                     ></Blinky>
                   </div>
