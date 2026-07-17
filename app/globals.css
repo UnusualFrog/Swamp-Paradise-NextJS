@@ -212,6 +212,17 @@
   padding: 5px;
 }
 
+.bio-blinkies-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.blinky-img {
+  width: 80px;
+  height: 45px;
+  padding: 0px 5px 0px 5px;
+}
+
 .bio-right-col {
   display: flex;
   flex-direction: column;

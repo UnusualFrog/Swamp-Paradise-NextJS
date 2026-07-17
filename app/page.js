@@ -59,8 +59,26 @@ export default function Home() {
 
                 <div className='bio-blinkies-container'>
                   <p className={bio_header_style}>===========BLINKIES===========</p>
+                  <div className='bio-blinkies-content'>
+                    <Image
+                      src="/blinkies/anything_but_chrome.gif"
+                      width={400}
+                      height={400}
+                      alt="Itchio.io Logo"
+                      className="blinky-img"
+                      loading="eager"
+                    ></Image>
+                    <Image
+                      src="/blinkies/annoying_dog.webp"
+                      width={400}
+                      height={400}
+                      alt="Itchio.io Logo"
+                      className="blinky-img"
+                      loading="eager"
+                    ></Image>
+                  </div>
                 </div>
-                
+
               </div>
 
               <div className='bio-right-col'>
