@@ -23,8 +23,8 @@ export default function Blinky( {imgPath, audioPath, width}) {
       {/* <button onClick={play}>Play</button> */}
       <Image
         src={imgPath}
-        width={400}
-        height={400}
+        width={200}
+        height={200}
         alt="Blinky"
         className={"blinky-img-flex w-" + width}
         loading="eager"

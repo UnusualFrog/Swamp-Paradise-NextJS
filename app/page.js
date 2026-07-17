@@ -147,11 +147,27 @@ export default function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/keroppi.gif"
-                      // audioPath=""
+                      // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath={"/blinkies/jerma.gif"}
                       audioPath={"/mp3/teacher_jerma.mp3"}
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/bad_web_design.gif"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/i_block_ads.gif"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/i_heart_dolphins.gif"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/i_saw_the_bodies.gif"
+                      // audioPath="/mp3/"
                     ></Blinky>
                   </div>
                 </div>
