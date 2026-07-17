@@ -54,7 +54,7 @@
 }
 
 .update {
-  color: green;
+  color: red;
 }
 
 /* ====== Layout Styles ====== */
@@ -151,7 +151,7 @@
 
 .bio-content {
   background-color: var(--green-light);
-  margin: 10px 10px 30px 10px;
+  margin: 10px 10px 150px 10px;
   flex-basis: 65%;
 
   display: flex;
