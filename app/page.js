@@ -18,6 +18,10 @@ const siteUpdates = [
   {
     date: "2026/07/17",
     text: "Blinkies Added; Home layout updated"
+  },
+  {
+    date: "2026/07/17",
+    text: "Added Blinky SFX"
   }
 ]
 
