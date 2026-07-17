@@ -130,6 +130,102 @@ export default function Home() {
                       className="blinky-img-flex w-25"
                       loading="eager"
                     ></Image>
+                    <Image
+                      src="/blinkies/deltarune_dance.webp"
+                      width={400}
+                      height={400}
+                      alt="Blinky"
+                      className="blinky-img-flex w-25"
+                      loading="eager"
+                    ></Image>
+                    <Image
+                      src="/blinkies/doom_hud.gif"
+                      width={400}
+                      height={400}
+                      alt="Blinky"
+                      className="blinky-img-flex w-50"
+                      loading="eager"
+                    ></Image>
+                    <Image
+                      src="/blinkies/dvd_bounce.gif"
+                      width={400}
+                      height={400}
+                      alt="Blinky"
+                      className="blinky-img-flex w-30"
+                      loading="eager"
+                    ></Image>
+                    <Image
+                      src="/blinkies/dvd_slot.gif"
+                      width={400}
+                      height={400}
+                      alt="Blinky"
+                      className="blinky-img-flex w-30"
+                      loading="eager"
+                    ></Image>
+                    <Image
+                      src="/blinkies/eat_pant.png"
+                      width={400}
+                      height={400}
+                      alt="Blinky"
+                      className="blinky-img-flex w-20"
+                      loading="eager"
+                    ></Image>
+                    <Image
+                      src="/blinkies/eddsworld.gif"
+                      width={400}
+                      height={400}
+                      alt="Blinky"
+                      className="blinky-img-flex w-30"
+                      loading="eager"
+                    ></Image>
+                    <Image
+                      src="/blinkies/ghastly_rainbow.gif"
+                      width={400}
+                      height={400}
+                      alt="Blinky"
+                      className="blinky-img-flex w-20"
+                      loading="eager"
+                    ></Image>
+                    <Image
+                      src="/blinkies/gimp_user.jpg"
+                      width={400}
+                      height={400}
+                      alt="Blinky"
+                      className="blinky-img-flex w-20"
+                      loading="eager"
+                    ></Image>
+                    <Image
+                      src="/blinkies/got_html.jpg"
+                      width={400}
+                      height={400}
+                      alt="Blinky"
+                      className="blinky-img-flex w-20"
+                      loading="eager"
+                    ></Image>
+                    <Image
+                      src="/blinkies/indica_girlie.gif"
+                      width={400}
+                      height={400}
+                      alt="Blinky"
+                      className="blinky-img-flex w-30"
+                      loading="eager"
+                    ></Image>
+                    <Image
+                      src="/blinkies/jerma.gif"
+                      width={400}
+                      height={400}
+                      alt="Blinky"
+                      className="blinky-img-flex w-25"
+                      loading="eager"
+                    ></Image>
+                    <Image
+                      src="/blinkies/keroppi.gif"
+                      width={400}
+                      height={400}
+                      alt="Blinky"
+                      className="blinky-img-flex w-25"
+                      loading="eager"
+                    ></Image>
                   </div>
                 </div>
 

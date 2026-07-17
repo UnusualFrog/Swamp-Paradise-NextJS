@@ -74,7 +74,7 @@
 .nav {
   width: 100%;
   height: auto;
-  margin-bottom: 10%
+  margin-bottom: 6%
 }
 
 .nav-bar {
@@ -215,17 +215,20 @@
 .bio-blinkies-content {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .blinky-img {
   width: 80px;
   height: 45px;
-  padding: 0px 5px 0px 5px;
+  padding: 2px 5px 2px 5px;
 }
 
 .blinky-img-flex {
   height: 45px;
-  padding: 0px 5px 0px 5px;
+  padding: 2px 5px 2px 5px;
 }
 
 .bio-right-col {
