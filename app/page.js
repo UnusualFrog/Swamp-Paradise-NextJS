@@ -123,14 +123,10 @@ export default function Home() {
                       className="blinky-img-flex w-35"
                       loading="eager"
                     ></Image>
-                    <Image
-                      src="/blinkies/da_blinkie.gif"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img-flex w-25"
-                      loading="eager"
-                    ></Image>
+                    <Blinky
+                      imgPath="/blinkies/da_blinkie.gif"
+                      audioPath="/mp3/da_vinky.mp3"
+                    ></Blinky>
                     <Image
                       src="/blinkies/deltarune_dance.webp"
                       width={400}
@@ -171,14 +167,10 @@ export default function Home() {
                       className="blinky-img-flex w-20"
                       loading="eager"
                     ></Image>
-                    <Image
-                      src="/blinkies/eddsworld.gif"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img-flex w-30"
-                      loading="eager"
-                    ></Image>
+                    <Blinky
+                      imgPath="/blinkies/eddsworld.gif"
+                      audioPath="/mp3/eddsworld.mp3"
+                    ></Blinky>
                     <Image
                       src="/blinkies/ghastly_rainbow.gif"
                       width={400}
