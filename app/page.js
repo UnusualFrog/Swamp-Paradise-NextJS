@@ -2,6 +2,7 @@ import './globals.css';
 import Image from 'next/image';
 import Link from 'next/link'
 import localFont from 'next/font/local'
+import Blinky from '../components/blinky'
 
 // Import Local Font
 const myFont = localFont({
@@ -207,15 +208,7 @@ export default function Home() {
                       width={400}
                       height={400}
                       alt="Blinky"
-                      className="blinky-img-flex w-30"
-                      loading="eager"
-                    ></Image>
-                    <Image
-                      src="/blinkies/jerma.gif"
-                      width={400}
-                      height={400}
-                      alt="Blinky"
-                      className="blinky-img-flex w-25"
+                      className="blinky-img-flex w-35"
                       loading="eager"
                     ></Image>
                     <Image
@@ -226,6 +219,10 @@ export default function Home() {
                       className="blinky-img-flex w-25"
                       loading="eager"
                     ></Image>
+                    <Blinky
+                      imgPath={"/blinkies/jerma.gif"}
+                      audioPath={"/mp3/teacher_jerma.mp3"}
+                    ></Blinky>
                   </div>
                 </div>
 

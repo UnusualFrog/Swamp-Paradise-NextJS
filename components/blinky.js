@@ -1,0 +1,32 @@
+'use client'
+
+import { useRef } from 'react';
+import Image from 'next/image';
+
+export default function Blinky( {imgPath, audioPath}) {
+  const audioRef = useRef();
+
+  const play = () => {
+    if (audioRef.current) {
+      audioRef.current.play()
+    } else {
+      // Throw error
+    }
+  }
+
+  return (
+    <div>
+      {/* <button onClick={play}>Play</button> */}
+      <Image
+        src={imgPath}
+        width={400}
+        height={400}
+        alt="Blinky"
+        className="blinky-img-flex w-25"
+        loading="eager"
+        onClick={play}
+      ></Image>
+      <audio ref={audioRef} src={audioPath} />
+    </div>
+  )
+}
