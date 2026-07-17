@@ -8,6 +8,19 @@ const myFont = localFont({
   src: '../font/cmu.typewriter-text-regular.ttf',
 })
 
+// Data for populating site update list
+const siteUpdates = [
+  {
+    date: "2026/07/16",
+    text: "Tag system fully functional"
+  },
+  {
+    date: "2026/07/17",
+    text: "Blinkies Added; Home layout updated"
+  }
+]
+
+// combine CSS classes with custom font
 const bio_text_style = 'bio-text  ' + myFont.className
 const bio_header_style = 'bio-header  ' + myFont.className
 const pronoun_btn_style = 'pronoun-button-home ' + myFont.className
@@ -50,13 +63,14 @@ export default function Home() {
                   <div className="bio-text-container">
                     <p className={bio_header_style}>==========BIO==========</p>
                     <p className={bio_text_style}>
-                      Welcome to my Site! My name is Julia. This site is my creative outlet. I am a programmer and I like to dabble in digital art & game dev. Checkout my blog for thoughts on birds, frogs, and other less important things.
+                      Welcome to my Site! My name is Julia. This site is my creative outlet. I am a programmer and I like to dabble in digital art & game dev. Checkout my blog for thoughts on birds, and other less important things.
                     </p>
                   </div>
 
 
                 </div>
 
+                {/* BLINKIES */}
                 <div className='bio-blinkies-container'>
                   <p className={bio_header_style}>===========BLINKIES===========</p>
                   <div className='bio-blinkies-content'>
@@ -64,7 +78,7 @@ export default function Home() {
                       src="/blinkies/anything_but_chrome.gif"
                       width={400}
                       height={400}
-                      alt="Itchio.io Logo"
+                      alt="Blinky"
                       className="blinky-img"
                       loading="eager"
                     ></Image>
@@ -72,8 +86,48 @@ export default function Home() {
                       src="/blinkies/annoying_dog.webp"
                       width={400}
                       height={400}
-                      alt="Itchio.io Logo"
+                      alt="Blinky"
                       className="blinky-img"
+                      loading="eager"
+                    ></Image>
+                    <Image
+                      src="/blinkies/autism.gif"
+                      width={400}
+                      height={400}
+                      alt="Blinky"
+                      className="blinky-img-flex w-30"
+                      loading="eager"
+                    ></Image>
+                    <Image
+                      src="/blinkies/axolotl.gif"
+                      width={400}
+                      height={400}
+                      alt="Blinky"
+                      className="blinky-img"
+                      loading="eager"
+                    ></Image>
+                    <Image
+                      src="/blinkies/boat_o_cross.png"
+                      width={400}
+                      height={400}
+                      alt="Blinky"
+                      className="blinky-img-flex w-30"
+                      loading="eager"
+                    ></Image>
+                    <Image
+                      src="/blinkies/city_stars.gif"
+                      width={400}
+                      height={400}
+                      alt="Blinky"
+                      className="blinky-img-flex w-35"
+                      loading="eager"
+                    ></Image>
+                    <Image
+                      src="/blinkies/da_blinkie.gif"
+                      width={400}
+                      height={400}
+                      alt="Blinky"
+                      className="blinky-img-flex w-25"
                       loading="eager"
                     ></Image>
                   </div>
@@ -120,7 +174,7 @@ export default function Home() {
                   <div className='updates-content'>
                     <p className={bio_header_style}>==========UPDATES==========</p>
                     <ul className='updates-list'>
-                      <li className={bio_text_style}>2026/07/16 - Tag system fully functional</li>
+                      {siteUpdates.reverse().map((x, i) => <li key={i} className={bio_text_style}>{x.date} - {x.text}</li>)}
                     </ul>
                   </div>
                 </div>
@@ -128,10 +182,6 @@ export default function Home() {
 
 
             </div>
-
-
-
-
 
           </div>
 
