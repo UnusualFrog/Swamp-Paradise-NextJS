@@ -101,11 +101,11 @@ export default function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/boat_o_cross.png"
-                      // audioPath=""
+                      audioPath="/mp3/la_cucaracha.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/city_stars.gif"
-                      // audioPath=""
+                      audioPath="/mp3/la_cucaracha.mp3"
                       width={35}
                     ></Blinky>
                     <Blinky
@@ -195,7 +195,7 @@ export default function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/i_eat_moss.gif"
-                      // audioPath="/mp3/"
+                      audioPath="/mp3/dt_found_moss.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/i_heart_mushroom.gif"
