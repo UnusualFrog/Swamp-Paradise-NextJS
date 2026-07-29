@@ -22,6 +22,10 @@ const siteUpdates = [
   {
     date: "2026/07/17",
     text: "Added Blinky SFX"
+  },
+  {
+    date: "2026/07/29",
+    text: "More Blinkies!"
   }
 ]
 
@@ -81,7 +85,7 @@ export default function Home() {
                   <div className='bio-blinkies-content'>
                     <Blinky
                       imgPath="/blinkies/anything_but_chrome.gif"
-                      // audioPath=""
+                      audioPath="/mp3/spongebob_stink.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/annoying_dog.webp"
@@ -174,7 +178,27 @@ export default function Home() {
                       // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
-                      imgPath="/blinkies/unregistered_hypercam.gif"
+                      imgPath="/blinkies/blinkie_collector.gif"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/blinky_smile.gif"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/dt_mew_mew.webp"
+                      audioPath="/mp3/mew_mew_laugh.mp3"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/he_smells_your_sins.gif"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/i_eat_moss.gif"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/i_heart_mushroom.gif"
                       // audioPath="/mp3/"
                     ></Blinky>
                   </div>
