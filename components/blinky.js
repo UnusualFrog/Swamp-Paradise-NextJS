@@ -29,6 +29,7 @@ export default function Blinky( {imgPath, audioPath, width}) {
         className={"blinky-img-flex w-" + width}
         loading="eager"
         onClick={play}
+        unoptimized
       ></Image>
       <audio ref={audioRef} src={audioPath} />
     </div>
