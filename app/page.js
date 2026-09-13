@@ -203,6 +203,62 @@ export default function Home() {
                       imgPath="/blinkies/i_heart_mushroom.gif"
                       // audioPath="/mp3/"
                     ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/chili_dog.png"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/cutie_honey.gif"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/i_feel_fantastic.png"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/i_like_birds.webp"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/kitty_stamp.jpg"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/mew_mew_peace.png"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/minecraft_with_gadget.png"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/mouthwashing.webp"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/mr_electric.png"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/my_house.webp"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/pronoun_man.png"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/sonic_pink.png"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/soup.png"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/system_32.gif"
+                      // audioPath="/mp3/"
+                    ></Blinky>
                   </div>
                 </div>
 
