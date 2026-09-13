@@ -259,6 +259,62 @@ export default function Home() {
                       imgPath="/blinkies/system_32.gif"
                       // audioPath="/mp3/"
                     ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/old_web.png"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/compile_carbuncle.webp"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/lain_eyes.webp"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/minecraft.webp"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/msicon_email.webp"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/only_garlic.png"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/carbuncle_new.webp"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/purble_palace.webp"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/cube_carbuncle.webp"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/club_penguin.webp"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/vriska_serket.webp"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/pink_laugh_stomp.webp"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/make_her_pay.webp"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/labour_day_jerma.png"
+                      // audioPath="/mp3/"
+                    ></Blinky>
                   </div>
                 </div>
 
