@@ -72,7 +72,9 @@ export default function Home() {
                   <div className="bio-text-container">
                     <p className={bio_header_style}>==========BIO==========</p>
                     <p className={bio_text_style}>
-                      Welcome to my Site! My name is Julia. This site is my creative outlet. I am a programmer and I like to dabble in digital art & game dev. Checkout my blog for thoughts on birds, and other less important things.
+                      Welcome to my Site! This is my creative outlet.
+                      I&apos;m a programmer and I like to dabble in digital art & game dev.
+                      Checkout my blog for thoughts on birds, and other less important things.
                     </p>
                   </div>
 
