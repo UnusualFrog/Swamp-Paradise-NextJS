@@ -9,9 +9,9 @@
             <link>http://localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 19 Sep 2026 20:30:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Sep 2026 20:47:13 GMT</lastBuildDate>
         <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 19 Sep 2026 20:30:16 GMT</pubDate>
+        <pubDate>Sat, 19 Sep 2026 20:47:13 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026]]></copyright>
         <item>
             <title><![CDATA[Untitled Post at: Thu, 17 Sep 2026 20:40:02 GMT]]></title>
@@ -25,8 +25,11 @@ The next day was the reception. This is where the real fun begins. It started fa
 It was an absolute blast of a time, I've never had so much fun at a wedding.]]></description>
             <link>http://localhost:3000</link>
             <guid isPermaLink="true">http://localhost:3000</guid>
+            <category><![CDATA[diary📗]]></category>
+            <category><![CDATA[wedding👰‍♀️]]></category>
+            <category><![CDATA[foodstuffs🍔]]></category>
             <pubDate>Thu, 17 Sep 2026 20:40:02 GMT</pubDate>
-            <enclosure url="https://i.cbc.ca/1.5233115.1564845912!/fileImage/httpImage/image.jpg_gen/derivatives/original_1180/ziggy-peelgood-s-in-churchill-square.jpg?im=" length="0" type="false"/>
+            <enclosure url="https://i.cbc.ca/1.5233115.1564845912!/fileImage/httpImage/image.jpg_gen/derivatives/original_1180/ziggy-peelgood-s-in-churchill-square.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Sun, 13 Sep 2026 05:32:05 GMT]]></title>
@@ -41,6 +44,9 @@ The ending was really cool too. I like that it builds from a typical action movi
 Really what can I say that hasn't already been said, its a classic for a reason, what a great movie.]]></description>
             <link>http://localhost:3000</link>
             <guid isPermaLink="true">http://localhost:3000</guid>
+            <category><![CDATA[anime👺]]></category>
+            <category><![CDATA[akira🚴]]></category>
+            <category><![CDATA[review📝]]></category>
             <pubDate>Sun, 13 Sep 2026 05:32:05 GMT</pubDate>
             <enclosure url="https://filmfolly.com/wp-content/uploads/2023/08/akira-cover-830x475.jpeg" length="0" type="image/jpeg"/>
         </item>
@@ -57,6 +63,9 @@ The third act was a total jaw dropper. I did not expect the absolute insanity of
 Overall I'd rank the movie an easy 10/10, while I'd say the series gets a strong 8/10, with points removed mostly due to the show's pacing being a bit too slow in earlier episodes.]]></description>
             <link>http://localhost:3000</link>
             <guid isPermaLink="true">http://localhost:3000</guid>
+            <category><![CDATA[review📝]]></category>
+            <category><![CDATA[rgu🌹]]></category>
+            <category><![CDATA[anime👺]]></category>
             <pubDate>Sun, 13 Sep 2026 05:29:10 GMT</pubDate>
             <enclosure url="https://m.media-amazon.com/images/M/MV5BZGQ5OGQ2MmYtYjcwMi00OTUyLTg0YzktNTczOGFkYTAyMjQzXkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_FMjpg_UX1000_.jpg" length="0" type="image/jpeg"/>
         </item>
@@ -76,6 +85,8 @@ Things are hectic but I'm hopeful it will work out.
 ]]></description>
             <link>http://localhost:3000</link>
             <guid isPermaLink="true">http://localhost:3000</guid>
+            <category><![CDATA[diary📗]]></category>
+            <category><![CDATA[infinite hell forever👿]]></category>
             <pubDate>Sun, 13 Sep 2026 05:25:27 GMT</pubDate>
             <enclosure url="https://i.imgur.com/wVZXhKN.jpeg" length="0" type="image/jpeg"/>
         </item>
@@ -92,6 +103,9 @@ The generation of backrooms terrain is also really impressive, leading to world'
 Overall great time, my only complaint is it's running our sleep schedules :p]]></description>
             <link>http://localhost:3000</link>
             <guid isPermaLink="true">http://localhost:3000</guid>
+            <category><![CDATA[review📝]]></category>
+            <category><![CDATA[infinite games🎮️]]></category>
+            <category><![CDATA[minecraft⛏️]]></category>
             <pubDate>Wed, 29 Jul 2026 16:58:01 GMT</pubDate>
             <enclosure url="https://media.forgecdn.net/attachments/description/1276799/description_3d7a6cdd-d2b3-4618-8a34-1d39700630a0.png" length="0" type="image/png"/>
         </item>
@@ -108,6 +122,9 @@ We watched Shaun of the dead, which was a pretty solid film, with the exception 
 Shout outs to my sisters dog Joey for being the best boy.]]></description>
             <link>http://localhost:3000</link>
             <guid isPermaLink="true">http://localhost:3000</guid>
+            <category><![CDATA[diary📗]]></category>
+            <category><![CDATA[review📝]]></category>
+            <category><![CDATA[doggy🐶]]></category>
             <pubDate>Wed, 29 Jul 2026 16:51:30 GMT</pubDate>
             <enclosure url="https://i.imgur.com/JuVMIG0.jpeg" length="0" type="image/jpeg"/>
         </item>
@@ -120,6 +137,9 @@ Shout outs to my sisters dog Joey for being the best boy.]]></description>
 It's too fucking hot.]]></description>
             <link>http://localhost:3000</link>
             <guid isPermaLink="true">http://localhost:3000</guid>
+            <category><![CDATA[diary📗]]></category>
+            <category><![CDATA[summer☀️]]></category>
+            <category><![CDATA[infinite hell forever👿]]></category>
             <pubDate>Thu, 16 Jul 2026 18:57:32 GMT</pubDate>
             <enclosure url="https://i.imgur.com/KCXrCKV.gif" length="0" type="image/gif"/>
         </item>
@@ -134,6 +154,10 @@ I had some really yummy Korean food for my birthday and Regan bought me some cut
 Overall I kinda feel like I'm going insane but good things are happening so who knows 🙃]]></description>
             <link>http://localhost:3000</link>
             <guid isPermaLink="true">http://localhost:3000</guid>
+            <category><![CDATA[diary📗]]></category>
+            <category><![CDATA[tv time📺️]]></category>
+            <category><![CDATA[foodstuffs🍔]]></category>
+            <category><![CDATA[bday🎂]]></category>
             <pubDate>Thu, 16 Jul 2026 18:23:59 GMT</pubDate>
             <enclosure url="https://preview.redd.it/bocchi-on-the-rocks-v0-5pgzqswie05a1.png?width=1150&amp;format=png&amp;auto=webp&amp;s=56c89d44a85386a6425e4464d0b5b71abaa80672" length="0" type="false"/>
         </item>
@@ -157,6 +181,9 @@ The finale was so perfectly bittersweet. Getting to see the real-life counterpar
 This finale and this series as a whole will always hold a special place in my heart, and while I'm sad to see it go, I'm incredibly happy with how it ended, and I wouldn't change anything about it. 10/10, Trans Women make the best art.]]></description>
             <link>http://localhost:3000</link>
             <guid isPermaLink="true">http://localhost:3000</guid>
+            <category><![CDATA[review📝]]></category>
+            <category><![CDATA[tadc🤡]]></category>
+            <category><![CDATA[movies🍿]]></category>
             <pubDate>Fri, 19 Jun 2026 21:06:28 GMT</pubDate>
             <enclosure url="https://i.ytimg.com/vi/fD5z7P3Oclc/hqdefault.jpg" length="0" type="image/jpeg"/>
         </item>
@@ -172,6 +199,8 @@ Just know that every day I'm trying and fighting and screaming and loving and ca
 Shout outs to trans women you deserve the whole world]]></description>
             <link>http://localhost:3000</link>
             <guid isPermaLink="true">http://localhost:3000</guid>
+            <category><![CDATA[diary📗]]></category>
+            <category><![CDATA[trans love🏳️‍⚧️]]></category>
             <pubDate>Fri, 19 Jun 2026 20:17:43 GMT</pubDate>
             <enclosure url="https://i.kym-cdn.com/photos/images/newsfeed/002/874/197/7f5.jpg" length="0" type="image/jpeg"/>
         </item>
@@ -186,6 +215,10 @@ Next, the weird and the bad. First the weird: Jabba the Hut's son is voiced by a
 Overall it was a very enjoyable experience (especially since it was free), and a refreshing reminder that under the right circumstances, Star Wars can be good, actually. Happy Birthday Regan :3]]></description>
             <link>http://localhost:3000</link>
             <guid isPermaLink="true">http://localhost:3000</guid>
+            <category><![CDATA[review📝]]></category>
+            <category><![CDATA[star wars🚀]]></category>
+            <category><![CDATA[the mandalorian🪖]]></category>
+            <category><![CDATA[movies🍿]]></category>
             <pubDate>Mon, 25 May 2026 01:57:35 GMT</pubDate>
             <enclosure url="https://www.brickfanatics.com/wp-content/uploads/2025/09/The-Mandalorian-and-Grogu-featured.png" length="0" type="image/png"/>
         </item>
@@ -200,6 +233,10 @@ We started a new TV marathon recently, and I think its one of our strongest so f
 We're going swimming again tonight which is always exciting; its been really nice having a consistent physical activity for Regan and I to do together. I've been doing a lot of miscellaneous physical activity lately which has been a nice change of pace from my regular gym routines. Overall today has been good.]]></description>
             <link>http://localhost:3000</link>
             <guid isPermaLink="true">http://localhost:3000</guid>
+            <category><![CDATA[diary📗]]></category>
+            <category><![CDATA[foodstuffs🍔]]></category>
+            <category><![CDATA[tv time📺️]]></category>
+            <category><![CDATA[serial experiments lain👩‍💻]]></category>
             <pubDate>Tue, 19 May 2026 23:00:47 GMT</pubDate>
             <enclosure url="https://i.imgur.com/ZtwKxNq.jpeg" length="0" type="image/jpeg"/>
         </item>
@@ -213,6 +250,8 @@ We're going swimming again tonight which is always exciting; its been really nic
 :)]]></description>
             <link>http://localhost:3000</link>
             <guid isPermaLink="true">http://localhost:3000</guid>
+            <category><![CDATA[diary📗]]></category>
+            <category><![CDATA[infinite hell forever👿]]></category>
             <pubDate>Mon, 11 May 2026 18:24:05 GMT</pubDate>
             <enclosure url="https://i.kym-cdn.com/photos/images/original/002/454/639/098.jpg" length="0" type="image/jpeg"/>
         </item>
@@ -225,6 +264,10 @@ I've been playing Gambonanza, which is a shameless ripoff of Balatro, but with C
 Regan and I made a delicious fried rice for dinner, we added chicken breast to our regular recipe and it did a lot to improve both the flavor and portion size of the meal, which was very nice. Regan added cream to the scrambled eggs, which made them extra fluffy and boosted the flavor of the rice by a lot.]]></description>
             <link>http://localhost:3000</link>
             <guid isPermaLink="true">http://localhost:3000</guid>
+            <category><![CDATA[diary📗]]></category>
+            <category><![CDATA[infinite games🎮️]]></category>
+            <category><![CDATA[foodstuffs🍔]]></category>
+            <category><![CDATA[gym💪]]></category>
             <pubDate>Mon, 11 May 2026 04:32:38 GMT</pubDate>
             <enclosure url="https://cdn.asoworld.com/img/f558bb37976a4479a1ecafdbc7387677.webp" length="0" type="image/webp"/>
         </item>
@@ -239,6 +282,9 @@ GF and I got groceries which was nice, especially the yummy cream buns they sell
 We're going swimming tonight which will be fun, even though I'm quite sore from a new workout routine. Overall it's been a really nice day.]]></description>
             <link>http://localhost:3000</link>
             <guid isPermaLink="true">http://localhost:3000</guid>
+            <category><![CDATA[diary📗]]></category>
+            <category><![CDATA[bird🦆]]></category>
+            <category><![CDATA[jojo⭐️]]></category>
             <pubDate>Tue, 05 May 2026 22:16:13 GMT</pubDate>
         </item>
     </channel>

@@ -30,6 +30,7 @@ export default async function generateRssFeed(allPosts) {
             url: `${site_url}`,
             //   url: `${site_url}/posts/${post.slug}`,
             date: post.date_posted,
+            categories: post.tags,
             enclosure: {
                 url: post.img,
                 // type: 'image/jpeg'
