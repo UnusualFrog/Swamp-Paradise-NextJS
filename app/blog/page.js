@@ -3,6 +3,7 @@ import '../globals.css';
 import Image from 'next/image';
 import localFont from 'next/font/local'
 import BlogPostList from '../../components/blog_post_list'
+import generateRssFeed from '../../utils/rss';
 
 
 // Import Local Font
@@ -14,7 +15,6 @@ const myFont = localFont({
 const pronoun_btn_style = 'pronoun-button ' + myFont.className
 const bio_text_style = 'tower-bio-content-text ' + myFont.className
 const blog_header_text_style = 'tower-blog-header-text ' + myFont.className
-
 
 
 export default async function Home({ searchParams }) {
@@ -30,6 +30,9 @@ export default async function Home({ searchParams }) {
 
     // Reverse post order to maintain chronology
     blog_post_data.reverse()
+
+    // RSS Feed
+    generateRssFeed(blog_post_data)
 
     // Get current filter tag from URL
     const { filterTag } = await searchParams
