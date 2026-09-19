@@ -1,6 +1,8 @@
 import fs from "fs";
 import RSS from "rss";
 
+// Code based on https://dev.to/promathieuthiry/creating-an-rss-feed-in-your-nextjs-project-20em
+
 export default async function generateRssFeed(allPosts) {
   const site_url =
     process.env.NODE_ENV === "production"
