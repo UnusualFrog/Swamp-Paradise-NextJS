@@ -4,14 +4,14 @@
         <description><![CDATA[Welcome to Swamp Paradise!]]></description>
         <link>http://localhost:3000/blog</link>
         <image>
-            <url>http://localhost:3000/blog/logo.jpeg</url>
+            <url>http://localhost:3000/blog/pfp.png</url>
             <title>Swamp Paradise blog posts | RSS Feed</title>
             <link>http://localhost:3000/blog</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 19 Sep 2026 19:46:32 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Sep 2026 20:19:00 GMT</lastBuildDate>
         <atom:link href="http://localhost:3000/blog/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 19 Sep 2026 19:46:32 GMT</pubDate>
+        <pubDate>Sat, 19 Sep 2026 20:19:00 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2026]]></copyright>
         <item>
             <title><![CDATA[Untitled Post at: Thu, 17 Sep 2026 20:40:02 GMT]]></title>
@@ -26,6 +26,7 @@ It was an absolute blast of a time, I've never had so much fun at a wedding.]]><
             <link>http://localhost:3000/blog</link>
             <guid isPermaLink="true">http://localhost:3000/blog</guid>
             <pubDate>Thu, 17 Sep 2026 20:40:02 GMT</pubDate>
+            <enclosure url="https://i.cbc.ca/1.5233115.1564845912!/fileImage/httpImage/image.jpg_gen/derivatives/original_1180/ziggy-peelgood-s-in-churchill-square.jpg?im=" length="0" type="false"/>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Sun, 13 Sep 2026 05:32:05 GMT]]></title>
@@ -41,6 +42,7 @@ Really what can I say that hasn't already been said, its a classic for a reason,
             <link>http://localhost:3000/blog</link>
             <guid isPermaLink="true">http://localhost:3000/blog</guid>
             <pubDate>Sun, 13 Sep 2026 05:32:05 GMT</pubDate>
+            <enclosure url="https://filmfolly.com/wp-content/uploads/2023/08/akira-cover-830x475.jpeg" length="0" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Sun, 13 Sep 2026 05:29:10 GMT]]></title>
@@ -56,6 +58,7 @@ Overall I'd rank the movie an easy 10/10, while I'd say the series gets a strong
             <link>http://localhost:3000/blog</link>
             <guid isPermaLink="true">http://localhost:3000/blog</guid>
             <pubDate>Sun, 13 Sep 2026 05:29:10 GMT</pubDate>
+            <enclosure url="https://m.media-amazon.com/images/M/MV5BZGQ5OGQ2MmYtYjcwMi00OTUyLTg0YzktNTczOGFkYTAyMjQzXkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_FMjpg_UX1000_.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Sun, 13 Sep 2026 05:25:27 GMT]]></title>
@@ -74,6 +77,7 @@ Things are hectic but I'm hopeful it will work out.
             <link>http://localhost:3000/blog</link>
             <guid isPermaLink="true">http://localhost:3000/blog</guid>
             <pubDate>Sun, 13 Sep 2026 05:25:27 GMT</pubDate>
+            <enclosure url="https://i.imgur.com/wVZXhKN.jpeg" length="0" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Wed, 29 Jul 2026 16:58:01 GMT]]></title>
@@ -89,6 +93,7 @@ Overall great time, my only complaint is it's running our sleep schedules :p]]><
             <link>http://localhost:3000/blog</link>
             <guid isPermaLink="true">http://localhost:3000/blog</guid>
             <pubDate>Wed, 29 Jul 2026 16:58:01 GMT</pubDate>
+            <enclosure url="https://media.forgecdn.net/attachments/description/1276799/description_3d7a6cdd-d2b3-4618-8a34-1d39700630a0.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Wed, 29 Jul 2026 16:51:30 GMT]]></title>
@@ -104,6 +109,7 @@ Shout outs to my sisters dog Joey for being the best boy.]]></description>
             <link>http://localhost:3000/blog</link>
             <guid isPermaLink="true">http://localhost:3000/blog</guid>
             <pubDate>Wed, 29 Jul 2026 16:51:30 GMT</pubDate>
+            <enclosure url="https://i.imgur.com/JuVMIG0.jpeg" length="0" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Thu, 16 Jul 2026 18:57:32 GMT]]></title>
@@ -115,6 +121,7 @@ It's too fucking hot.]]></description>
             <link>http://localhost:3000/blog</link>
             <guid isPermaLink="true">http://localhost:3000/blog</guid>
             <pubDate>Thu, 16 Jul 2026 18:57:32 GMT</pubDate>
+            <enclosure url="https://i.imgur.com/KCXrCKV.gif" length="0" type="image/gif"/>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Thu, 16 Jul 2026 18:23:59 GMT]]></title>
@@ -128,6 +135,7 @@ Overall I kinda feel like I'm going insane but good things are happening so who 
             <link>http://localhost:3000/blog</link>
             <guid isPermaLink="true">http://localhost:3000/blog</guid>
             <pubDate>Thu, 16 Jul 2026 18:23:59 GMT</pubDate>
+            <enclosure url="https://preview.redd.it/bocchi-on-the-rocks-v0-5pgzqswie05a1.png?width=1150&amp;format=png&amp;auto=webp&amp;s=56c89d44a85386a6425e4464d0b5b71abaa80672" length="0" type="false"/>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Fri, 19 Jun 2026 21:06:28 GMT]]></title>
@@ -150,6 +158,7 @@ This finale and this series as a whole will always hold a special place in my he
             <link>http://localhost:3000/blog</link>
             <guid isPermaLink="true">http://localhost:3000/blog</guid>
             <pubDate>Fri, 19 Jun 2026 21:06:28 GMT</pubDate>
+            <enclosure url="https://i.ytimg.com/vi/fD5z7P3Oclc/hqdefault.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Fri, 19 Jun 2026 20:17:43 GMT]]></title>
@@ -164,6 +173,7 @@ Shout outs to trans women you deserve the whole world]]></description>
             <link>http://localhost:3000/blog</link>
             <guid isPermaLink="true">http://localhost:3000/blog</guid>
             <pubDate>Fri, 19 Jun 2026 20:17:43 GMT</pubDate>
+            <enclosure url="https://i.kym-cdn.com/photos/images/newsfeed/002/874/197/7f5.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Mon, 25 May 2026 01:57:35 GMT]]></title>
@@ -177,6 +187,7 @@ Overall it was a very enjoyable experience (especially since it was free), and a
             <link>http://localhost:3000/blog</link>
             <guid isPermaLink="true">http://localhost:3000/blog</guid>
             <pubDate>Mon, 25 May 2026 01:57:35 GMT</pubDate>
+            <enclosure url="https://www.brickfanatics.com/wp-content/uploads/2025/09/The-Mandalorian-and-Grogu-featured.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Tue, 19 May 2026 23:00:47 GMT]]></title>
@@ -190,6 +201,7 @@ We're going swimming again tonight which is always exciting; its been really nic
             <link>http://localhost:3000/blog</link>
             <guid isPermaLink="true">http://localhost:3000/blog</guid>
             <pubDate>Tue, 19 May 2026 23:00:47 GMT</pubDate>
+            <enclosure url="https://i.imgur.com/ZtwKxNq.jpeg" length="0" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Mon, 11 May 2026 18:24:05 GMT]]></title>
@@ -202,6 +214,7 @@ We're going swimming again tonight which is always exciting; its been really nic
             <link>http://localhost:3000/blog</link>
             <guid isPermaLink="true">http://localhost:3000/blog</guid>
             <pubDate>Mon, 11 May 2026 18:24:05 GMT</pubDate>
+            <enclosure url="https://i.kym-cdn.com/photos/images/original/002/454/639/098.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Mon, 11 May 2026 04:32:38 GMT]]></title>
@@ -213,6 +226,7 @@ Regan and I made a delicious fried rice for dinner, we added chicken breast to o
             <link>http://localhost:3000/blog</link>
             <guid isPermaLink="true">http://localhost:3000/blog</guid>
             <pubDate>Mon, 11 May 2026 04:32:38 GMT</pubDate>
+            <enclosure url="https://cdn.asoworld.com/img/f558bb37976a4479a1ecafdbc7387677.webp" length="0" type="image/webp"/>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Tue, 05 May 2026 22:16:13 GMT]]></title>

@@ -14,7 +14,7 @@ export default async function generateRssFeed(allPosts) {
     description: "Welcome to Swamp Paradise!",
     site_url: site_url,
     feed_url: `${site_url}/rss.xml`,
-    image_url: `${site_url}/logo.jpeg`,
+    image_url: `${site_url}/pfp.png`,
     pubDate: new Date(),
     copyright: `All rights reserved ${new Date().getFullYear()}`,
   };
@@ -30,6 +30,7 @@ export default async function generateRssFeed(allPosts) {
       url: `${site_url}`,
     //   url: `${site_url}/posts/${post.slug}`,
       date: post.date_posted,
+      enclosure: {url:post.img, }
     });
   });
 

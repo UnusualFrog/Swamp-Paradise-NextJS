@@ -26,6 +26,10 @@ const siteUpdates = [
   {
     date: "2026/07/29",
     text: "More Blinkies!"
+  },
+  {
+    date: "2026/09/19",
+    text: "Added an RSS feed"
   }
 ]
 
