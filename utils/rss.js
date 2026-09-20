@@ -16,7 +16,10 @@ export default async function generateRssFeed(allPosts) {
         feed_url: `${site_url}/rss.xml`,
         image_url: `${site_url}/pfp.png`,
         pubDate: new Date(),
-        copyright: `All rights reserved ${new Date().getFullYear()}`,
+        // copyright: `All rights reserved ${new Date().getFullYear()}`,
+        custom_namespaces: {
+            media: "http://search.yahoo.com/mrss/"
+        }
     };
 
     const feed = new RSS(feedOptions);
@@ -30,11 +33,30 @@ export default async function generateRssFeed(allPosts) {
             url: `${site_url}`,
             //   url: `${site_url}/posts/${post.slug}`,
             date: post.date_posted,
+            guid: post.ID,
             categories: post.tags,
             enclosure: {
                 url: post.img,
                 // type: 'image/jpeg'
-            }
+            },
+            custom_elements: [
+                {
+                    "media:content": [
+                        {
+                            _attr: {
+                                url: post.img, medium: "image"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "media:thumbnail": [
+                        { _attr: { 
+                            url: post.img }
+                         }
+                    ]
+                }
+            ]
         });
     });
 
