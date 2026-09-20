@@ -13,12 +13,14 @@ const myFont = localFont({
 
 // Apply Global styles + local font
 const blog_post_body_style = 'tower-blog-post-text ' + myFont.className
+const blog_post_title_style = 'tower-blog-post-title ' + myFont.className
 const blog_post_date_style = 'tower-blog-date-text ' + myFont.className
 const blog_post_tag_style = 'tower-blog-tags-text ' + myFont.className
 
 export default function BlogPost(blog_post_data) {
   // Post content
   let main_content = blog_post_data.blog_post_data.main_content
+  let title = blog_post_data.blog_post_data.title
   let date = blog_post_data.blog_post_data.date_posted
   let tags = blog_post_data.blog_post_data.tags
   let img = blog_post_data.blog_post_data.img
@@ -55,6 +57,7 @@ export default function BlogPost(blog_post_data) {
 
       {/* Main Text Content */}
       <div className='tower-blog-post-content'>
+        <p className={blog_post_title_style}>{title}</p>
           <p className={blog_post_body_style}>
               {main_content}
           </p>

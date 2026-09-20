@@ -54,7 +54,7 @@
 }
 
 .update {
-  color: blue;
+  color: green;
 }
 
 /* ====== Layout Styles ====== */
@@ -420,6 +420,10 @@
 
 .tower-blog-post-text {
   @apply text-lg text-left m-2 text-wrap whitespace-pre-line
+}
+
+.tower-blog-post-title {
+  @apply text-3xl text-center font-bold m-1 text-wrap whitespace-pre-line
 }
 
 .tower-blog-date-text {

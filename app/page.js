@@ -30,6 +30,10 @@ const siteUpdates = [
   {
     date: "2026/09/19",
     text: "Added an RSS feed"
+  },
+  {
+    date: "2026/09/20",
+    text: "Added Titles to Blog Posts"
   }
 ]
 
