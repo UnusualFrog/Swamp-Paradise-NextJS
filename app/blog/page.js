@@ -57,7 +57,7 @@ export default async function Home({ searchParams }) {
                     <div className='tower-bio-content-base'>
                         {/* Profile Picture */}
                         <Image
-                            src="/pfp.png"
+                            src="/assets/pfp.png"
                             width={1920}
                             height={1080}
                             alt="Picture of the author"

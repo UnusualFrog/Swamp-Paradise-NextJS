@@ -9,9 +9,58 @@
             <link>http://localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 20 Sep 2026 21:37:47 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 20 Sep 2026 22:33:34 GMT</lastBuildDate>
         <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 20 Sep 2026 21:37:47 GMT</pubDate>
+        <pubDate>Sun, 20 Sep 2026 22:33:34 GMT</pubDate>
+        <item>
+            <title><![CDATA[Untitled Post at: Sun, 20 Sep 2026 22:29:42 GMT]]></title>
+            <description><![CDATA[My GF and I finished our playthrough of Dying Light recently, including the DLC. What a truly incredible mixed bag of a game. As far as gameplay is concerned, it's an absolute blast. The combat and climbing mechanics have a nice degree of fluidity to them, and being able to employ them in an open world with friends makes for some really fun moments of you and your partner slaughtering massive hordes of zombies together. That said it does suffer from the junk of being a 360 game. Particularly, the parkour aspects can be occasionally unreliable (I.e., over shooting on a wall climb, falling to grab a ledge, grappling hook not grabbing) but when it works its a total blast. This is further elevated by the introduction of drivable cars in the DLC. The cars feel surprisingly deep, you can really feel the weight of the car being thrown around, and the damage system creates unique obstacles that must be accounted for, like driving on bald tires or a broken engine. Additionally the game boasts a day-night system with night time being extra dangerous as ultra tough zombies known as volatile swarm the streets, which can only really be defeated through the use of UV lights (or cheese strategies), which are limited in availability, creating for some tense encounters.
+
+Unfortunately I do have some heavy criticism for the game as well. For starters, it suffers from the curse of the open world game. This is an issue with 90% of open world games, but it is worth noting; although the open world is fun to explore at first, it becomes a bit grating over time, especially when many of the games quests have you running the same few types of fetch quests over and over. Speaking of quests, this is another area where the game could stand to improve. Some of them are fun, in particular any that have you enter an enclosed space like a building or parking garage really spice up the pacing, however many of them consist of "travel to location x to talk to person y and receive item z" which gets old fast. These style of missions become grating very quickly and unfortunately make up a majority of the side quests in the game.
+
+Easily the games biggest flaw is its writing. Not surprising for a 360 Era game I know. The premise of the game takes a political spin on a zombie outbreak in which Harran is turned into a quarantine zone, and you play as Kyle Crane, a US government operative sent in on a political mission. Your first mission involves burning a create of antidote to the zombie disease, which makes it seem like the game will deal with Kyle's morality vs. His duty to the government, but this plot point basically goes entirely unused. Rather than try and make a point about the nuanced nature of government and political evil, the game instead paints the government as cartoonishly evil villains and Kyle Crane as the ultimate savior of the people, which is just extremely boring.
+In general the game struggles with maintaining a consisting tone for writing. Some missions feel like they're going for maximum melodrama ultra serious zombie media, while others feel like total clown shoes, and the worst part is the clown shoe writing is significantly better than the melodrama, in spite of the melodrama being the focus of the writing. This continues into the DLC, with the only really difference being the shift in setting from Urban Survival in the city to countryside survival with a mystery cult. The cult sucks by the way.
+
+Both the main game and the DLC featured extremely underwhelming endings. For starters both endings force you into single player, which sucks when you spend the whole game in co-op, and the final sequence doesn't have any technical elements which would be difficult to implement in multi-player. The ending of the main game leans extremely heavily on QTEs which is abysmal dogshit, I was expecting a fun fight with the main villain, sort of shoot out or melee duel but actually you kind of just get nothing.
+The DLC follows up on this by giving you a choice between two endings. Both of which are stupid. In one ending you end up in a stupid fist fight with the final boss, which is made especially annoying because the game really does not emphasize unarmed combat. The alternate ending sees Kyle teaming up with the final boss, and as a result just has no final boss fight. I'm not sure which is worse, but narratively speaking both endings are fucking stupid.
+
+Overall Dying Light is a really fun game mechanically, and a blast to play with friends, just don't expect very much from the story, and you will have a good time.]]></description>
+            <link>http://localhost:3000</link>
+            <guid isPermaLink="false">17</guid>
+            <category><![CDATA[infinite games🎮️]]></category>
+            <category><![CDATA[dying light🧟]]></category>
+            <category><![CDATA[review📝]]></category>
+            <pubDate>Sun, 20 Sep 2026 22:29:42 GMT</pubDate>
+            <enclosure url="https://cdn1.epicgames.com/item/2c42520d342a46d7a6e0cfa77b4715de/EGS_DyingLightStandardEdition_Techland_Editions_S1_2560x1440-2967a86bdce109ba6c772176187353d1" length="0" type="false"/>
+            <media:content url="https://cdn1.epicgames.com/item/2c42520d342a46d7a6e0cfa77b4715de/EGS_DyingLightStandardEdition_Techland_Editions_S1_2560x1440-2967a86bdce109ba6c772176187353d1" medium="image">
+            </media:content>
+            <media:thumbnail url="https://cdn1.epicgames.com/item/2c42520d342a46d7a6e0cfa77b4715de/EGS_DyingLightStandardEdition_Techland_Editions_S1_2560x1440-2967a86bdce109ba6c772176187353d1">
+            </media:thumbnail>
+        </item>
+        <item>
+            <title><![CDATA[Untitled Post at: Sun, 20 Sep 2026 22:02:28 GMT]]></title>
+            <description><![CDATA[Sonic project reignition is one of those rare fan projects which presents the opportunity to re-write history for a bad game. Similar to project 06, project reignition recreates the entirety of sonic and the secret rings from the ground up in Godot, allowing players to utilize a standard controller rather than Wii remote tilt controls. This change is more than enough to push the game from being a forgettable spin off of the 2000s to genuinely one of the best experiences I've had playing a 3D sonic game.
+
+With proper controls, secret rings  boast fun level design, and an addictive feedback loop with its mission system. I initially expected the mission style gameplay to be grating, but most of the mission are well designed, and unlocking and customizing sonic skills proved to be especially exciting as a game mechanic. Speed brake and time break serve to spice up the gameplay compared to typical boost gameplay seen in contemporary titles like sonic unleashed. Being able to slow down without losing top speed with time break is an excellent way to add harder platforming without alienating new players, which speed break enables seasoned players to push their advantage in tougher missions. This combined with a huge selection of selectable skills (double jump, light speed dash, etc.) creates for a platform error with a surprising degree of expression of movement.
+
+The game runs very well, and features very few bugs. I'm not sure if any up-scaling occurred in the process of making the game, but assets look great and come together to create very vibrant and exciting land shapes for Sonic to race through.
+
+The story isn't groundbreaking by any means, but it works for what it is. Sonic is characterized as more arrogant in this game, something I feel the modern games could benefit from returning to. The dynamic between sonic and Shara is really fun too, I love their banter during levels. The bit with story characters being replaced by sonic characters is shallow but good for a few quick laughs. Erzaor Djinn doesn't leave a huge impact as a villain, but the final encounter with him makes up for it with spectacle.
+
+On top of everything else, project reignition even features native mod support, meaning it's very easy to play as your favorite characters. I tried out a blaze mod which worked quite nicely. Project reignition is genuinely one of the most fun experiences I've had with a sonic game in recent memory, and given that it's a free project, everyone who likes sonic should give it a try. 
+]]></description>
+            <link>http://localhost:3000</link>
+            <guid isPermaLink="false">16</guid>
+            <category><![CDATA[sonic🦔]]></category>
+            <category><![CDATA[review📝]]></category>
+            <category><![CDATA[infinite games🎮️]]></category>
+            <pubDate>Sun, 20 Sep 2026 22:02:28 GMT</pubDate>
+            <enclosure url="https://cdn2.steamgriddb.com/grid/5d810a604942d6eb807cde1cdefd392f.png" length="0" type="image/png"/>
+            <media:content url="https://cdn2.steamgriddb.com/grid/5d810a604942d6eb807cde1cdefd392f.png" medium="image">
+            </media:content>
+            <media:thumbnail url="https://cdn2.steamgriddb.com/grid/5d810a604942d6eb807cde1cdefd392f.png">
+            </media:thumbnail>
+        </item>
         <item>
             <title><![CDATA[Untitled Post at: Thu, 17 Sep 2026 20:40:02 GMT]]></title>
             <description><![CDATA[The  wedding happened and it was wonderful. The actual service was perfectly short and sweet. The chapel was tiny, only enough for 6 pews. The windows were stained glass with lots of pretty imagery like a boat in the water and a progress flag in the shape of a heart. The main window depicted Elvis with some choice lyrics. 
