@@ -9,9 +9,9 @@
             <link>http://localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 20 Sep 2026 20:18:23 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 20 Sep 2026 20:56:37 GMT</lastBuildDate>
         <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 20 Sep 2026 20:18:23 GMT</pubDate>
+        <pubDate>Sun, 20 Sep 2026 20:56:37 GMT</pubDate>
         <item>
             <title><![CDATA[Untitled Post at: Thu, 17 Sep 2026 20:40:02 GMT]]></title>
             <description><![CDATA[The  wedding happened and it was wonderful. The actual service was perfectly short and sweet. The chapel was tiny, only enough for 6 pews. The windows were stained glass with lots of pretty imagery like a boat in the water and a progress flag in the shape of a heart. The main window depicted Elvis with some choice lyrics. 
@@ -31,6 +31,8 @@ It was an absolute blast of a time, I've never had so much fun at a wedding.]]><
             <enclosure url="https://i.cbc.ca/1.5233115.1564845912!/fileImage/httpImage/image.jpg_gen/derivatives/original_1180/ziggy-peelgood-s-in-churchill-square.jpg" length="0" type="image/jpeg"/>
             <media:content url="https://i.cbc.ca/1.5233115.1564845912!/fileImage/httpImage/image.jpg_gen/derivatives/original_1180/ziggy-peelgood-s-in-churchill-square.jpg" medium="image">
             </media:content>
+            <media:thumbnail url="https://i.cbc.ca/1.5233115.1564845912!/fileImage/httpImage/image.jpg_gen/derivatives/original_1180/ziggy-peelgood-s-in-churchill-square.jpg">
+            </media:thumbnail>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Sun, 13 Sep 2026 05:32:05 GMT]]></title>
@@ -52,6 +54,8 @@ Really what can I say that hasn't already been said, its a classic for a reason,
             <enclosure url="https://filmfolly.com/wp-content/uploads/2023/08/akira-cover-830x475.jpeg" length="0" type="image/jpeg"/>
             <media:content url="https://filmfolly.com/wp-content/uploads/2023/08/akira-cover-830x475.jpeg" medium="image">
             </media:content>
+            <media:thumbnail url="https://filmfolly.com/wp-content/uploads/2023/08/akira-cover-830x475.jpeg">
+            </media:thumbnail>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Sun, 13 Sep 2026 05:29:10 GMT]]></title>
@@ -73,6 +77,8 @@ Overall I'd rank the movie an easy 10/10, while I'd say the series gets a strong
             <enclosure url="https://m.media-amazon.com/images/M/MV5BZGQ5OGQ2MmYtYjcwMi00OTUyLTg0YzktNTczOGFkYTAyMjQzXkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_FMjpg_UX1000_.jpg" length="0" type="image/jpeg"/>
             <media:content url="https://m.media-amazon.com/images/M/MV5BZGQ5OGQ2MmYtYjcwMi00OTUyLTg0YzktNTczOGFkYTAyMjQzXkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_FMjpg_UX1000_.jpg" medium="image">
             </media:content>
+            <media:thumbnail url="https://m.media-amazon.com/images/M/MV5BZGQ5OGQ2MmYtYjcwMi00OTUyLTg0YzktNTczOGFkYTAyMjQzXkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_FMjpg_UX1000_.jpg">
+            </media:thumbnail>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Sun, 13 Sep 2026 05:25:27 GMT]]></title>
@@ -96,6 +102,8 @@ Things are hectic but I'm hopeful it will work out.
             <enclosure url="https://i.imgur.com/wVZXhKN.jpeg" length="0" type="image/jpeg"/>
             <media:content url="https://i.imgur.com/wVZXhKN.jpeg" medium="image">
             </media:content>
+            <media:thumbnail url="https://i.imgur.com/wVZXhKN.jpeg">
+            </media:thumbnail>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Wed, 29 Jul 2026 16:58:01 GMT]]></title>
@@ -117,6 +125,8 @@ Overall great time, my only complaint is it's running our sleep schedules :p]]><
             <enclosure url="https://media.forgecdn.net/attachments/description/1276799/description_3d7a6cdd-d2b3-4618-8a34-1d39700630a0.png" length="0" type="image/png"/>
             <media:content url="https://media.forgecdn.net/attachments/description/1276799/description_3d7a6cdd-d2b3-4618-8a34-1d39700630a0.png" medium="image">
             </media:content>
+            <media:thumbnail url="https://media.forgecdn.net/attachments/description/1276799/description_3d7a6cdd-d2b3-4618-8a34-1d39700630a0.png">
+            </media:thumbnail>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Wed, 29 Jul 2026 16:51:30 GMT]]></title>
@@ -138,6 +148,8 @@ Shout outs to my sisters dog Joey for being the best boy.]]></description>
             <enclosure url="https://i.imgur.com/JuVMIG0.jpeg" length="0" type="image/jpeg"/>
             <media:content url="https://i.imgur.com/JuVMIG0.jpeg" medium="image">
             </media:content>
+            <media:thumbnail url="https://i.imgur.com/JuVMIG0.jpeg">
+            </media:thumbnail>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Thu, 16 Jul 2026 18:57:32 GMT]]></title>
@@ -155,6 +167,8 @@ It's too fucking hot.]]></description>
             <enclosure url="https://i.imgur.com/KCXrCKV.gif" length="0" type="image/gif"/>
             <media:content url="https://i.imgur.com/KCXrCKV.gif" medium="image">
             </media:content>
+            <media:thumbnail url="https://i.imgur.com/KCXrCKV.gif">
+            </media:thumbnail>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Thu, 16 Jul 2026 18:23:59 GMT]]></title>
@@ -175,6 +189,8 @@ Overall I kinda feel like I'm going insane but good things are happening so who 
             <enclosure url="https://preview.redd.it/bocchi-on-the-rocks-v0-5pgzqswie05a1.png?width=1150&amp;format=png&amp;auto=webp&amp;s=56c89d44a85386a6425e4464d0b5b71abaa80672" length="0" type="false"/>
             <media:content url="https://preview.redd.it/bocchi-on-the-rocks-v0-5pgzqswie05a1.png?width=1150&amp;format=png&amp;auto=webp&amp;s=56c89d44a85386a6425e4464d0b5b71abaa80672" medium="image">
             </media:content>
+            <media:thumbnail url="https://preview.redd.it/bocchi-on-the-rocks-v0-5pgzqswie05a1.png?width=1150&amp;format=png&amp;auto=webp&amp;s=56c89d44a85386a6425e4464d0b5b71abaa80672">
+            </media:thumbnail>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Fri, 19 Jun 2026 21:06:28 GMT]]></title>
@@ -203,6 +219,8 @@ This finale and this series as a whole will always hold a special place in my he
             <enclosure url="https://i.ytimg.com/vi/fD5z7P3Oclc/hqdefault.jpg" length="0" type="image/jpeg"/>
             <media:content url="https://i.ytimg.com/vi/fD5z7P3Oclc/hqdefault.jpg" medium="image">
             </media:content>
+            <media:thumbnail url="https://i.ytimg.com/vi/fD5z7P3Oclc/hqdefault.jpg">
+            </media:thumbnail>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Fri, 19 Jun 2026 20:17:43 GMT]]></title>
@@ -222,6 +240,8 @@ Shout outs to trans women you deserve the whole world]]></description>
             <enclosure url="https://i.kym-cdn.com/photos/images/newsfeed/002/874/197/7f5.jpg" length="0" type="image/jpeg"/>
             <media:content url="https://i.kym-cdn.com/photos/images/newsfeed/002/874/197/7f5.jpg" medium="image">
             </media:content>
+            <media:thumbnail url="https://i.kym-cdn.com/photos/images/newsfeed/002/874/197/7f5.jpg">
+            </media:thumbnail>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Mon, 25 May 2026 01:57:35 GMT]]></title>
@@ -242,6 +262,8 @@ Overall it was a very enjoyable experience (especially since it was free), and a
             <enclosure url="https://www.brickfanatics.com/wp-content/uploads/2025/09/The-Mandalorian-and-Grogu-featured.png" length="0" type="image/png"/>
             <media:content url="https://www.brickfanatics.com/wp-content/uploads/2025/09/The-Mandalorian-and-Grogu-featured.png" medium="image">
             </media:content>
+            <media:thumbnail url="https://www.brickfanatics.com/wp-content/uploads/2025/09/The-Mandalorian-and-Grogu-featured.png">
+            </media:thumbnail>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Tue, 19 May 2026 23:00:47 GMT]]></title>
@@ -262,6 +284,8 @@ We're going swimming again tonight which is always exciting; its been really nic
             <enclosure url="https://i.imgur.com/ZtwKxNq.jpeg" length="0" type="image/jpeg"/>
             <media:content url="https://i.imgur.com/ZtwKxNq.jpeg" medium="image">
             </media:content>
+            <media:thumbnail url="https://i.imgur.com/ZtwKxNq.jpeg">
+            </media:thumbnail>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Mon, 11 May 2026 18:24:05 GMT]]></title>
@@ -279,6 +303,8 @@ We're going swimming again tonight which is always exciting; its been really nic
             <enclosure url="https://i.kym-cdn.com/photos/images/original/002/454/639/098.jpg" length="0" type="image/jpeg"/>
             <media:content url="https://i.kym-cdn.com/photos/images/original/002/454/639/098.jpg" medium="image">
             </media:content>
+            <media:thumbnail url="https://i.kym-cdn.com/photos/images/original/002/454/639/098.jpg">
+            </media:thumbnail>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Mon, 11 May 2026 04:32:38 GMT]]></title>
@@ -297,6 +323,8 @@ Regan and I made a delicious fried rice for dinner, we added chicken breast to o
             <enclosure url="https://cdn.asoworld.com/img/f558bb37976a4479a1ecafdbc7387677.webp" length="0" type="image/webp"/>
             <media:content url="https://cdn.asoworld.com/img/f558bb37976a4479a1ecafdbc7387677.webp" medium="image">
             </media:content>
+            <media:thumbnail url="https://cdn.asoworld.com/img/f558bb37976a4479a1ecafdbc7387677.webp">
+            </media:thumbnail>
         </item>
         <item>
             <title><![CDATA[Untitled Post at: Tue, 05 May 2026 22:16:13 GMT]]></title>
@@ -315,6 +343,8 @@ We're going swimming tonight which will be fun, even though I'm quite sore from 
             <pubDate>Tue, 05 May 2026 22:16:13 GMT</pubDate>
             <media:content url="" medium="image">
             </media:content>
+            <media:thumbnail url="">
+            </media:thumbnail>
         </item>
     </channel>
 </rss>

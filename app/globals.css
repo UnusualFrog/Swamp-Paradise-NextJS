@@ -54,7 +54,7 @@
 }
 
 .update {
-  color: green;
+  color: blue;
 }
 
 /* ====== Layout Styles ====== */
@@ -66,7 +66,7 @@
 }
 
 .background-image {
-  background-image: url(../public/background_icons.png);
+  background-image: url(../public/assets/background_icons.png);
   background-size: cover;
   background-position: center;
 }
@@ -243,11 +243,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .bio-links-img {
   width: 100%;
   height: 50%;
+}
+.bio-links-img-rss {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
 }
 
 .bio-link-txt {

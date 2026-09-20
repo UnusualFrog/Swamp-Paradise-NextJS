@@ -63,7 +63,7 @@ export default function Home() {
 
                   <div className="bio-pfp-col">
                     <Image
-                      src="/pfp.png"
+                      src="/assets/pfp.png"
                       width={1920}
                       height={1080}
                       alt="Picture of the author"
@@ -340,12 +340,12 @@ export default function Home() {
                       loading="eager"
                     ></Image>
                     <p className='text-center'>---------------------------------------------------------------------</p>
-                    <p className={bio_link_text_style}>My games! (Playabled in browser)</p>
+                    <p className={bio_link_text_style}>My games! (Playable in browser)</p>
                   </Link>
 
                   <Link href="https://www.youtube.com/@unusualfrog779">
                     <Image
-                      src="/logo_yt_bk.png"
+                      src="/assets/logo_yt_bk.png"
                       width={400}
                       height={400}
                       alt="Youtube Logo"
@@ -354,6 +354,19 @@ export default function Home() {
                     ></Image>
                     <p className='text-center'>---------------------------------------------------------------------</p>
                     <p className={bio_link_text_style}>Various art projects and shitposts</p>
+                  </Link>
+
+                  <Link href="https://swamp-paradise-website.vercel.app/rss.xml">
+                    <Image
+                      src="https://cdn-icons-png.flaticon.com/512/25/25367.png"
+                      width={400}
+                      height={400}
+                      alt="RSS Feed Logo"
+                      className="bio-links-img-rss"
+                      loading="eager"
+                    ></Image>
+                    <p className='text-center'>---------------------------------------------------------------------</p>
+                    <p className={bio_link_text_style}>RSS Feed for the blog</p>
                   </Link>
 
                 </div>

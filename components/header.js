@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className='nav'>
             <Image
-                src="/header.bmp"
+                src="/assets/header.bmp"
                 width={0}
                 height={0}
                 alt="Swamp Paradise"
