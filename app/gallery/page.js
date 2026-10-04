@@ -32,7 +32,47 @@ const group_data = [
         "ID": 2,
         "src": "/assets/pfp.png",
         "desc": "This set contains something indescribable"
-    }
+    },
+    {
+        "ID": 1,
+        "src": "/assets/pfp.png",
+        "desc": "This set contains images of birds"
+    },
+    {
+        "ID": 2,
+        "src": "/assets/pfp.png",
+        "desc": "This set contains digital artwork"
+    },
+    {
+        "ID": 2,
+        "src": "/assets/pfp.png",
+        "desc": "This set contains photos of mushrooms"
+    },
+    {
+        "ID": 2,
+        "src": "/assets/pfp.png",
+        "desc": "This set contains something indescribable"
+    },
+    {
+        "ID": 1,
+        "src": "/assets/pfp.png",
+        "desc": "This set contains images of birds"
+    },
+    {
+        "ID": 2,
+        "src": "/assets/pfp.png",
+        "desc": "This set contains digital artwork"
+    },
+    {
+        "ID": 2,
+        "src": "/assets/pfp.png",
+        "desc": "This set contains photos of mushrooms"
+    },
+    {
+        "ID": 2,
+        "src": "/assets/pfp.png",
+        "desc": "This set contains something indescribable"
+    },
 ]
 
 export default function Home() {
