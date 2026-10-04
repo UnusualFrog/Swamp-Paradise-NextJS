@@ -1,6 +1,8 @@
 import '../globals.css';
 import Image from 'next/image';
 import localFont from 'next/font/local'
+import GalleryGrid from '../../components/gallery_grid';
+import GalleryImg from '../../components/gallery_img';
 
 // Import Local Font
 const myFont = localFont({
@@ -8,6 +10,30 @@ const myFont = localFont({
 })
 
 const gallery_header_text_style = 'tower-gallery-header-text ' + myFont.className
+
+// Image data
+const group_data = [
+    {
+        "ID": 1,
+        "src": "/assets/pfp.png",
+        "desc": "This set contains images of birds"
+    },
+    {
+        "ID": 2,
+        "src": "/assets/pfp.png",
+        "desc": "This set contains digital artwork"
+    },
+    {
+        "ID": 2,
+        "src": "/assets/pfp.png",
+        "desc": "This set contains photos of mushrooms"
+    },
+    {
+        "ID": 2,
+        "src": "/assets/pfp.png",
+        "desc": "This set contains something indescribable"
+    }
+]
 
 export default function Home() {
     return (
@@ -26,7 +52,8 @@ export default function Home() {
                         </div>
 
                         <div className='tower-gallery-grid' >
-                            <Image
+                            <GalleryGrid data={group_data}></GalleryGrid>
+                            {/* <Image
                                 src="/assets/pfp.png"
                                 width={1920}
                                 height={1080}
@@ -130,7 +157,7 @@ export default function Home() {
                                 height={1080}
                                 alt="Picture of the author"
                                 className="tower-gallery-grid-img"
-                            ></Image>
+                            ></Image> */}
 
 
 
