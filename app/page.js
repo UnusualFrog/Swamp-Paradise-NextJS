@@ -34,6 +34,10 @@ const siteUpdates = [
   {
     date: "2026/09/20",
     text: "Added Titles to Blog Posts"
+  },
+  {
+    date: "2026/10/04",
+    text: "Blinkies + SFX!"
   }
 ]
 
@@ -103,11 +107,11 @@ export default function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/autism.gif"
-                      // audioPath=""
+                      // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/axolotl.gif"
-                      // audioPath=""
+                      // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/boat_o_cross.png"
@@ -133,11 +137,11 @@ export default function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/dvd_bounce.gif"
-                      // audioPath=""
+                      // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/dvd_slot.gif"
-                      // audioPath=""
+                      // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/eat_pant.png"
@@ -153,15 +157,15 @@ export default function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/gimp_user.jpg"
-                      // audioPath=""
+                      // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/got_html.jpg"
-                      // audioPath=""
+                      // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/indica_girlie.gif"
-                      // audioPath=""
+                      // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/keroppi.gif"
@@ -197,7 +201,7 @@ export default function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/dt_mew_mew.webp"
-                      audioPath="/mp3/mew_mew_laugh.mp3"
+                      audioPath="/mp3/pink_cry.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/he_smells_your_sins.gif"
@@ -233,11 +237,11 @@ export default function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/mew_mew_peace.png"
-                      // audioPath="/mp3/"
+                      audioPath="/mp3/pink_gasp.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/minecraft_with_gadget.png"
-                      // audioPath="/mp3/"
+                      audioPath="/mp3/brown_bricks.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/mouthwashing.webp"
@@ -253,7 +257,7 @@ export default function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/pronoun_man.png"
-                      // audioPath="/mp3/"
+                      audioPath="/mp3/howard_one_piece.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/sonic_pink.png"
@@ -309,19 +313,35 @@ export default function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/vriska_serket.webp"
-                      // audioPath="/mp3/"
+                      audioPath="/mp3/vriska_laugh.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/pink_laugh_stomp.webp"
-                      // audioPath="/mp3/"
+                      audioPath="/mp3/pink_laugh.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/make_her_pay.webp"
-                      // audioPath="/mp3/"
+                      audioPath="/mp3/vriska_laugh.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/labour_day_jerma.png"
-                      // audioPath="/mp3/"
+                      audioPath="/mp3/sparkle.mp3"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/trans_pukeko.jpg"
+                      audioPath="/mp3/pukeko.mp3"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/meet_the_spy.gif"
+                      audioPath="/mp3/i_am_the_spy.mp3"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/catgirl_2008.jpg"
+                      audioPath="/mp3/meow.mp3"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/billy_mays.gif"
+                      audioPath="/mp3/billy_mays_here.mp3"
                     ></Blinky>
                   </div>
                 </div>
