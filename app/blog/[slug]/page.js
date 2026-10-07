@@ -1,4 +1,97 @@
+import Image from 'next/image';
+import { promises as fs } from 'fs';
+import localFont from 'next/font/local'
+import BlogPostList from '../../../components/blog_post_list'
+
+// Import Local Font
+const myFont = localFont({
+    src: '../../../font/cmu.typewriter-text-regular.ttf',
+})
+
 export default async function Page({ params }) {
-  const { slug } = await params
-  return <div>My Post: {slug}</div>
+
+    // Combine global.css style with local font import
+    const pronoun_btn_style = 'pronoun-button ' + myFont.className
+    const bio_text_style = 'tower-bio-content-text ' + myFont.className
+    const blog_header_text_style = 'tower-blog-header-text ' + myFont.className
+
+    // Get slug of current page
+    const { slug } = await params
+
+    // Load blog post data from json
+    const file = await fs.readFile(process.cwd() + '/data/blog_posts.json', 'utf8');
+    const data = JSON.parse(file);
+    const blog_post_data = [];
+
+    // Convert from object of objects to array of objects to allow for .map() usage )
+    for (let [, value] of Object.entries(data)) {
+        blog_post_data.push(value)
+    }
+
+    // Reverse post order to maintain chronology
+    blog_post_data.reverse()
+
+    // Filter posts by ID
+    let filtered_data;
+    filtered_data = blog_post_data.filter(e => e.ID == slug)
+
+
+
+
+    return <div className="h-auto">
+        <div className='container-blog'>
+
+            {/* BIO CONTENT (LEFT TOWER) */}
+            <div className='tower-bio' >
+                {/* Tower Shadow */}
+                <div className='tower-bio-shadow'></div>
+                {/* Bio Content */}
+                <div className='tower-bio-content-base'>
+                    {/* Profile Picture */}
+                    <Image
+                        src="/assets/pfp.png"
+                        width={1920}
+                        height={1080}
+                        alt="Picture of the author"
+                        className="pfp"
+                    ></Image>
+
+                    {/* Name & Pronoun Labels */}
+                    <button disabled={true} className={pronoun_btn_style}>✏️ - Julia</button>
+                    <button disabled={true} className={pronoun_btn_style}>♀️ - She/Her</button>
+                    <button disabled={true} className={pronoun_btn_style}>🖥️ - Unusual Frog</button>
+
+                    {/* Bio Description */}
+                    <div className='tower-bio-content-value'>
+                        <p className={bio_text_style}>
+                            Hi! My name is Julia, welcome to my blog. Here you can expect to find
+                            my thoughts on birds, frogs and other critters, alongside media reviews,
+                            and the occasional ramblings of a mad-woman.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            {/* BLOG CONTENT (RIGHT TOWER) */}
+            <div className='tower-blog'>
+                {/* TOWER SHADOW */}
+                <div className='tower-blog-shadow'></div>
+
+                <div className='tower-blog-content-col'>
+                    {/* TOWER HEADER */}
+                    <div className='tower-blog-header'>
+                        <p className={blog_header_text_style}>=== BLOG ===</p>
+                    </div>
+
+                    {/* BLOG POSTS BELOW */}
+                    <BlogPostList data={filtered_data ? filtered_data : blog_post_data}></BlogPostList>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
 }

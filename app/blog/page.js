@@ -93,13 +93,6 @@ export default async function Home({ searchParams }) {
                         </div>
 
                         {/* BLOG POSTS BELOW */}
-                        {/* <div>
-                            {
-                                blog_post_data.map((obj, i) => (
-                                    <BlogPost key={i} blog_post_data={obj}></BlogPost>
-                                ))
-                            }
-                        </div> */}
                         <BlogPostList data={filtered_data ? filtered_data : blog_post_data}></BlogPostList>
 
 
