@@ -38,7 +38,12 @@ const siteUpdates = [
   {
     date: "2026/10/04",
     text: "Blinkies + SFX!"
-  }
+  },
+  {
+    date: "2026/10/07",
+    text: "View blog posts by clicking timestamp"
+  },
+  
 ]
 
 // combine CSS classes with custom font
@@ -140,6 +145,10 @@ export default function Home() {
                       // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
+                      imgPath="/blinkies/tf2_heavy_stare.webp"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
                       imgPath="/blinkies/dvd_slot.gif"
                       // audioPath="/mp3/"
                     ></Blinky>
@@ -165,7 +174,7 @@ export default function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/indica_girlie.gif"
-                      // audioPath="/mp3/"
+                      audioPath="/mp3/bong.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/keroppi.gif"
@@ -192,6 +201,10 @@ export default function Home() {
                       // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
+                      imgPath="/blinkies/tf2_sanvich_trans.png"
+                      audioPath="/mp3/heavy_eat.mp3"
+                    ></Blinky>
+                    <Blinky
                       imgPath="/blinkies/blinkie_collector.gif"
                       // audioPath="/mp3/"
                     ></Blinky>
@@ -210,6 +223,10 @@ export default function Home() {
                     <Blinky
                       imgPath="/blinkies/i_eat_moss.gif"
                       audioPath="/mp3/dt_found_moss.mp3"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/ivy_quinn_yuri.png"
+                      // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/i_heart_mushroom.gif"
@@ -232,6 +249,10 @@ export default function Home() {
                       // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
+                      imgPath="/blinkies/tf2_spy_hanging.webp"
+                      audioPath="/mp3/tf2_spy_hang.mp3"
+                    ></Blinky>
+                    <Blinky
                       imgPath="/blinkies/kitty_stamp.jpg"
                       // audioPath="/mp3/"
                     ></Blinky>
@@ -246,6 +267,10 @@ export default function Home() {
                     <Blinky
                       imgPath="/blinkies/mouthwashing.webp"
                       // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/tf2_scout_thumb.webp"
+                      audioPath="/mp3/tf2_scout_burning.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/mr_electric.png"
@@ -269,6 +294,10 @@ export default function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/system_32.gif"
+                      // audioPath="/mp3/"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/ramona_heart.jpg"
                       // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
@@ -314,6 +343,10 @@ export default function Home() {
                     <Blinky
                       imgPath="/blinkies/vriska_serket.webp"
                       audioPath="/mp3/vriska_laugh.mp3"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/tf2_coconut.png"
+                      audioPath="/mp3/coconut.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/pink_laugh_stomp.webp"

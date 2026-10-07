@@ -278,7 +278,7 @@
 
 .updates-list {
   list-style: circle;
-  margin-left: 70px;
+  margin-left: 50px;
   word-wrap: wrap;
   /* border: solid 2px var(--green-dark) */
 }
