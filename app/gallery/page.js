@@ -15,21 +15,25 @@ const gallery_header_text_style = 'tower-gallery-header-text ' + myFont.classNam
 const group_data = [
     {
         "ID": 1,
+        "name": "birds",
         "src": "/assets/pfp.png",
         "desc": "This set contains images of birds"
     },
     {
         "ID": 2,
+        "name": "art",
         "src": "/assets/pfp.png",
         "desc": "This set contains digital artwork"
     },
     {
         "ID": 2,
+        "name": "mushrooms",
         "src": "/assets/pfp.png",
         "desc": "This set contains photos of mushrooms"
     },
     {
         "ID": 2,
+        "name": "indescribable",
         "src": "/assets/pfp.png",
         "desc": "This set contains something indescribable"
     },
