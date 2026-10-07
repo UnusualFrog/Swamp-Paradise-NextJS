@@ -5,9 +5,12 @@ import Image from 'next/image';
 
 export default function Blinky( {imgPath, audioPath, width}) {
   const audioRef = useRef();
+  
 
   const play = () => {
     if (audioRef.current) {
+      // Set volume level
+      audioRef.current.volume = 0.09
       audioRef.current.play()
     } else {
       // Throw error
