@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 
 import localFont from 'next/font/local'
 import Image from 'next/image';
+import Link from 'next/link'
 
 // Import Local Font
 const myFont = localFont({
@@ -19,11 +20,13 @@ const blog_post_tag_style = 'tower-blog-tags-text ' + myFont.className
 
 export default function BlogPost(blog_post_data) {
   // Post content
+  let id = blog_post_data.blog_post_data.ID
   let main_content = blog_post_data.blog_post_data.main_content
   let title = blog_post_data.blog_post_data.title
   let date = blog_post_data.blog_post_data.date_posted
   let tags = blog_post_data.blog_post_data.tags
   let img = blog_post_data.blog_post_data.img
+  let href = `/blog/${id}`
 
   // Initialize state and router
   const [filterTag, setFilterTag] = useState("");
@@ -35,7 +38,7 @@ export default function BlogPost(blog_post_data) {
       router.push(`?filterTag=${filterTag}`);
       console.log(filterTag)
     }
-    
+
   }, [filterTag]);
 
 
@@ -43,42 +46,43 @@ export default function BlogPost(blog_post_data) {
     <div className='tower-blog-post-base'>
 
       {
-        img != '' && 
-        img != null && 
+        img != '' &&
+        img != null &&
         <Image
-            src={img}
-            width={1920}
-            height={1080}
-            alt="Picture of the author"
-            className="tower-blog-post-image"
-            unoptimized={true}
+          src={img}
+          width={1920}
+          height={1080}
+          alt="Picture of the author"
+          className="tower-blog-post-image"
+          unoptimized={true}
         ></Image>
       }
 
       {/* Main Text Content */}
       <div className='tower-blog-post-content'>
         <p className={blog_post_title_style}>{title}</p>
-          <p className={blog_post_body_style}>
-              {main_content}
-          </p>
+        <p className={blog_post_body_style}>
+          {main_content}
+        </p>
       </div>
 
       {/* Date & Tags */}
-      <div className='tower-blog-post-tags'>
-          <p className={blog_post_date_style}>{date}</p>
-          {
-            tags.map((tag, i) => (
-              <p 
-                key={tag + i} 
-                className={blog_post_tag_style}  
-                onClick={() => setFilterTag(tag)}
-              >
-                {tag}
-              </p>
-            ))
-          }
-      </div>
+      <Link className='tower-blog-post-tags' href={href} key={id}>
+        <p className={blog_post_date_style}>{date}</p>
+        {
+          tags.map((tag, i) => (
+            <p
+              key={tag + i}
+              className={blog_post_tag_style}
+              onClick={() => setFilterTag(tag)}
+            >
+              {tag}
+            </p>
+          ))
+        }
+      </Link>
 
-  </div>
+
+    </div>
   )
 }
