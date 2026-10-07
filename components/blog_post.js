@@ -35,7 +35,7 @@ export default function BlogPost(blog_post_data) {
   // useEffect will append the query param whenever the state changes
   useEffect(() => {
     if (filterTag) {
-      router.push(`?filterTag=${filterTag}`);
+      router.push(`/blog/?filterTag=${filterTag}`);
       console.log(filterTag)
     }
 
