@@ -1,25 +1,25 @@
 {
     "1": {
         "ID": 1,
-        "name": "birds",
+        "name": "Artwork",
         "src": "/assets/pfp.png",
-        "desc": "This set contains images of birds"
+        "desc": "Artwork I've created"
     },
     "2":{
         "ID": 2,
-        "name": "art",
+        "name": "Bird Photos",
         "src": "/assets/pfp.png",
-        "desc": "This set contains digital artwork"
+        "desc": "This set contains pictures of birds I've taken"
     },
     "3":{
         "ID": 2,
-        "name": "mushrooms",
+        "name": "Mushrooms",
         "src": "/assets/pfp.png",
         "desc": "This set contains photos of mushrooms"
     },
     "4":{
         "ID": 2,
-        "name": "indescribable",
+        "name": "Indescribable",
         "src": "/assets/pfp.png",
         "desc": "This set contains something indescribable"
     }
