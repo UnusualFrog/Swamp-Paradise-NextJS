@@ -1,6 +1,7 @@
 import '../globals.css';
 import Image from 'next/image';
 import localFont from 'next/font/local'
+import { promises as fs } from 'fs';
 import GalleryGrid from '../../components/gallery_grid';
 import GalleryImg from '../../components/gallery_img';
 
@@ -11,73 +12,15 @@ const myFont = localFont({
 
 const gallery_header_text_style = 'tower-gallery-header-text ' + myFont.className
 
-// Image data
-const group_data = [
-    {
-        "ID": 1,
-        "name": "birds",
-        "src": "/assets/pfp.png",
-        "desc": "This set contains images of birds"
-    },
-    {
-        "ID": 2,
-        "name": "art",
-        "src": "/assets/pfp.png",
-        "desc": "This set contains digital artwork"
-    },
-    {
-        "ID": 2,
-        "name": "mushrooms",
-        "src": "/assets/pfp.png",
-        "desc": "This set contains photos of mushrooms"
-    },
-    {
-        "ID": 2,
-        "name": "indescribable",
-        "src": "/assets/pfp.png",
-        "desc": "This set contains something indescribable"
-    },
-    {
-        "ID": 1,
-        "src": "/assets/pfp.png",
-        "desc": "This set contains images of birds"
-    },
-    {
-        "ID": 2,
-        "src": "/assets/pfp.png",
-        "desc": "This set contains digital artwork"
-    },
-    {
-        "ID": 2,
-        "src": "/assets/pfp.png",
-        "desc": "This set contains photos of mushrooms"
-    },
-    {
-        "ID": 2,
-        "src": "/assets/pfp.png",
-        "desc": "This set contains something indescribable"
-    },
-    {
-        "ID": 1,
-        "src": "/assets/pfp.png",
-        "desc": "This set contains images of birds"
-    },
-    {
-        "ID": 2,
-        "src": "/assets/pfp.png",
-        "desc": "This set contains digital artwork"
-    },
-    {
-        "ID": 2,
-        "src": "/assets/pfp.png",
-        "desc": "This set contains photos of mushrooms"
-    },
-    {
-        "ID": 2,
-        "src": "/assets/pfp.png",
-        "desc": "This set contains something indescribable"
-    },
-]
+// Load gallery group data from json
+    const file = await fs.readFile(process.cwd() + '/data/gallery_groups.json', 'utf8');
+    const data = JSON.parse(file);
+    const group_data = []
+
+    // Convert from object of objects to array of objects to allow for .map() usage )
+    for (let [, value] of Object.entries(data)) {
+        group_data.push(value)
+    }
 
 export default function Home() {
     return (
@@ -97,120 +40,9 @@ export default function Home() {
 
                         <div className='tower-gallery-grid' >
                             <GalleryGrid data={group_data}></GalleryGrid>
-                            {/* <Image
-                                src="/assets/pfp.png"
-                                width={1920}
-                                height={1080}
-                                alt="Picture of the author"
-                                className="tower-gallery-grid-img"
-                            ></Image>
-                            <Image
-                                src="/assets/pfp.png"
-                                width={1920}
-                                height={1080}
-                                alt="Picture of the author"
-                                className="tower-gallery-grid-img"
-                            ></Image>
-                            <Image
-                                src="/assets/pfp.png"
-                                width={1920}
-                                height={1080}
-                                alt="Picture of the author"
-                                className="tower-gallery-grid-img"
-                            ></Image>
-                            <Image
-                                src="/assets/pfp.png"
-                                width={1920}
-                                height={1080}
-                                alt="Picture of the author"
-                                className="tower-gallery-grid-img"
-                            ></Image>
-                            <Image
-                                src="/assets/pfp.png"
-                                width={1920}
-                                height={1080}
-                                alt="Picture of the author"
-                                className="tower-gallery-grid-img"
-                            ></Image>
-                            <Image
-                                src="/assets/pfp.png"
-                                width={1920}
-                                height={1080}
-                                alt="Picture of the author"
-                                className="tower-gallery-grid-img"
-                            ></Image>
-                            <Image
-                                src="/assets/pfp.png"
-                                width={1920}
-                                height={1080}
-                                alt="Picture of the author"
-                                className="tower-gallery-grid-img"
-                            ></Image>
-                            <Image
-                                src="/assets/pfp.png"
-                                width={1920}
-                                height={1080}
-                                alt="Picture of the author"
-                                className="tower-gallery-grid-img"
-                            ></Image>
-                            <Image
-                                src="/assets/pfp.png"
-                                width={1920}
-                                height={1080}
-                                alt="Picture of the author"
-                                className="tower-gallery-grid-img"
-                            ></Image>
-                            <Image
-                                src="/assets/pfp.png"
-                                width={1920}
-                                height={1080}
-                                alt="Picture of the author"
-                                className="tower-gallery-grid-img"
-                            ></Image>
-                            <Image
-                                src="/assets/pfp.png"
-                                width={1920}
-                                height={1080}
-                                alt="Picture of the author"
-                                className="tower-gallery-grid-img"
-                            ></Image>
-                            <Image
-                                src="/assets/pfp.png"
-                                width={1920}
-                                height={1080}
-                                alt="Picture of the author"
-                                className="tower-gallery-grid-img"
-                            ></Image>
-                            <Image
-                                src="/assets/pfp.png"
-                                width={1920}
-                                height={1080}
-                                alt="Picture of the author"
-                                className="tower-gallery-grid-img"
-                            ></Image>
-                            <Image
-                                src="/assets/pfp.png"
-                                width={1920}
-                                height={1080}
-                                alt="Picture of the author"
-                                className="tower-gallery-grid-img"
-                            ></Image>
-                            <Image
-                                src="/assets/pfp.png"
-                                width={1920}
-                                height={1080}
-                                alt="Picture of the author"
-                                className="tower-gallery-grid-img"
-                            ></Image> */}
-
-
-
                         </div>
 
-
-
                     </div>
-
                 </div>
             </div>
 

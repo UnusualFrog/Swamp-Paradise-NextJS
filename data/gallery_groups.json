@@ -1,0 +1,26 @@
+{
+    "1": {
+        "ID": 1,
+        "name": "birds",
+        "src": "/assets/pfp.png",
+        "desc": "This set contains images of birds"
+    },
+    "2":{
+        "ID": 2,
+        "name": "art",
+        "src": "/assets/pfp.png",
+        "desc": "This set contains digital artwork"
+    },
+    "3":{
+        "ID": 2,
+        "name": "mushrooms",
+        "src": "/assets/pfp.png",
+        "desc": "This set contains photos of mushrooms"
+    },
+    "4":{
+        "ID": 2,
+        "name": "indescribable",
+        "src": "/assets/pfp.png",
+        "desc": "This set contains something indescribable"
+    }
+}

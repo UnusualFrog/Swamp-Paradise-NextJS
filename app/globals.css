@@ -526,7 +526,7 @@
   height: 250px;
   width: 250px;
   text-align: center;
-  margin: 0px 0px 45px 0px;
+  margin: 0px 20px 45px 20px;
 }
 
 .tower-gallery-grid-group-text-container {
@@ -537,8 +537,4 @@
 
 .tower-gallery-grid-group-text{
   @apply text-base text-center w-full
-}
-
-.a {
-  color: red;
 }
