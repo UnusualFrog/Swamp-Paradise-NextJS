@@ -498,7 +498,7 @@
 }
 
 .tower-gallery-header-text {
-  @apply text-8xl text-center mt-4 text-nowrap
+  @apply text-8xl text-center mt-4 text-nowrap capitalize
 }
 
 .tower-gallery-grid {
