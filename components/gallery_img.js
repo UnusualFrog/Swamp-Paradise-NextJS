@@ -16,7 +16,7 @@ export default function GalleryImg({ img_data, is_group }) {
 
     if (is_group) {
         return (
-            <Link href={href} key={img_data.ID}>
+            <Link href={href} key={img_data.ID} style={{display: 'contents'}}>
                 <div className='tower-gallery-grid-group group'>
                     <p className={gallery_title_text_style}>{img_data.name}</p>
                     <Image
@@ -38,7 +38,7 @@ export default function GalleryImg({ img_data, is_group }) {
         )
     } else {
         return (
-            <Link href={img_data.src} key={img_data.ID} target="_blank">
+            <Link href={img_data.src} key={img_data.ID} style={{display: 'contents'}} target="_blank">
                 <div className='tower-gallery-grid-group group'>
                     <p className={gallery_title_text_style}>{img_data.name}</p>
                     <Image
