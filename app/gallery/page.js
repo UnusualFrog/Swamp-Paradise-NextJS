@@ -24,7 +24,7 @@ const gallery_header_text_style = 'tower-gallery-header-text ' + myFont.classNam
 
 export default function Home() {
     return (
-        <div className='h-300'>
+        <div className='h-fit'>
             <div className='container-gallery'>
                 <div className='tower-gallery'>
                     {/* Shadow */}

@@ -30,7 +30,7 @@ export default async function Page({ params }) {
 
 
 
-    return <div className='h-300'>
+    return <div className='h-fit'>
         <div className='container-gallery'>
             <div className='tower-gallery'>
                 {/* Shadow */}

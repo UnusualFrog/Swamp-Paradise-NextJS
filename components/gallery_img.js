@@ -38,7 +38,7 @@ export default function GalleryImg({ img_data, is_group }) {
         )
     } else {
         return (
-            <Link href={img_data.src} key={img_data.ID}>
+            <Link href={img_data.src} key={img_data.ID} target="_blank">
                 <div className='tower-gallery-grid-group group'>
                     <p className={gallery_title_text_style}>{img_data.name}</p>
                     <Image
