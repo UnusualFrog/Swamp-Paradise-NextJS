@@ -3,24 +3,31 @@
         "ID": 1,
         "name": "Bird Photos",
         "src": "https://i.imgur.com/hKHq3QW.jpeg",
-        "desc": "This set contains pictures of birds I've taken"
+        "desc": "My Bird Photography and Identifications"
     },
     "2": {
         "ID": 2,
         "name": "Mushrooms",
         "src": "/assets/pfp.png",
-        "desc": "This set contains photos of mushrooms I've seen"
+        "desc": "My Mushroom Photography"
     },
+    
     "3": {
         "ID": 3,
         "name": "Artwork",
         "src": "https://w.wallhaven.cc/full/ly/wallhaven-ly8xzr.png",
-        "desc": "Artwork I've created"
+        "desc": "Artwork & Illustrations I've created"
     },
     "4": {
         "ID": 4,
-        "name": "Indescribable",
+        "name": "Aesthetic",
         "src": "/assets/pfp.png",
-        "desc": "This set contains something indescribable"
+        "desc": "Aesthetically pleasing or interesting images I've collected"
+    },
+    "5": {
+        "ID": 4,
+        "name": "Undescribed",
+        "src": "https://i.imgur.com/A4E9LCT.jpeg",
+        "desc": "Strange, ordinary, bizarre, benign, confusing & interesting"
     }
 }

@@ -18,7 +18,7 @@ export default function GalleryImg({ img_data, is_group }) {
         return (
             <Link href={href} key={img_data.ID} style={{display: 'contents'}}>
                 <div className='tower-gallery-grid-group group'>
-                    <p className={gallery_title_text_style}>{img_data.name}</p>
+                    {img_data.name != "" && <p className={gallery_title_text_style}>{img_data.name}</p>}
                     <Image
                         src={img_data.src}
                         width={350}
@@ -27,9 +27,9 @@ export default function GalleryImg({ img_data, is_group }) {
                         className='tower-gallery-grid-img'
                         loading='eager'
                     ></Image>
-                    <div className='tower-gallery-grid-group-text-container hidden group-hover:block'>
+                    {img_data.desc != "" && <div className='tower-gallery-grid-group-text-container hidden group-hover:block'>
                         <p className={gallery_text_style}>{img_data.desc}</p>
-                    </div>
+                    </div>}
 
 
 
@@ -40,7 +40,7 @@ export default function GalleryImg({ img_data, is_group }) {
         return (
             <Link href={img_data.src} key={img_data.ID} style={{display: 'contents'}} target="_blank">
                 <div className='tower-gallery-grid-group group'>
-                    <p className={gallery_title_text_style}>{img_data.name}</p>
+                    {img_data.name != "" && <p className={gallery_title_text_style}>{img_data.name}</p>}
                     <Image
                         src={img_data.src}
                         width={350}
@@ -48,10 +48,11 @@ export default function GalleryImg({ img_data, is_group }) {
                         alt={img_data.desc}
                         className='tower-gallery-grid-img'
                         loading='eager'
+                        unoptimized='true'
                     ></Image>
-                    <div className='tower-gallery-grid-group-text-container hidden group-hover:block'>
+                    {img_data.desc != "" && <div className='tower-gallery-grid-group-text-container hidden group-hover:block'>
                         <p className={gallery_text_style}>{img_data.desc}</p>
-                    </div>
+                    </div>}
 
 
 
