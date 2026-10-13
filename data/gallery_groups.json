@@ -3,31 +3,36 @@
         "ID": 1,
         "name": "Bird Photos",
         "src": "https://i.imgur.com/hKHq3QW.jpeg",
-        "desc": "My Bird Photography and Identifications"
+        "desc": "My Bird Photography and Identifications",
+        "shuffle": "false"
     },
     "2": {
         "ID": 2,
         "name": "Mushrooms",
         "src": "https://i.imgur.com/cKXWPBF.jpeg",
-        "desc": "My Mushroom Photography"
+        "desc": "My Mushroom Photography",
+        "shuffle": "false"
     },
     
     "3": {
         "ID": 3,
         "name": "Artwork",
         "src": "https://w.wallhaven.cc/full/ly/wallhaven-ly8xzr.png",
-        "desc": "Artwork & Illustrations I've created"
+        "desc": "Artwork & Illustrations I've created",
+        "shuffle": "false"
     },
     "4": {
         "ID": 4,
         "name": "Aesthetic",
         "src": "https://64.media.tumblr.com/84f20be8c9fab6f4a53f37925a73db48/tumblr_oaip4metrh1row371o1_1280.jpg",
-        "desc": "Aesthetically pleasing or interesting images I've collected"
+        "desc": "Aesthetically pleasing or interesting images I've collected",
+        "shuffle": "true"
     },
     "5": {
         "ID": 4,
         "name": "Undescribed",
         "src": "https://i.imgur.com/A4E9LCT.jpeg",
-        "desc": "Strange, ordinary, bizarre, benign, confusing & interesting"
+        "desc": "Strange, ordinary, bizarre, benign, confusing & interesting",
+        "shuffle": "true"
     }
 }

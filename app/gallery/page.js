@@ -1,9 +1,7 @@
 import '../globals.css';
-import Image from 'next/image';
 import localFont from 'next/font/local'
 import { promises as fs } from 'fs';
 import GalleryGrid from '../../components/gallery_grid';
-import GalleryImg from '../../components/gallery_img';
 
 // Import Local Font
 const myFont = localFont({

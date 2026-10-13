@@ -1,5 +1,7 @@
 import GalleryImg from '../components/gallery_img'
 
+
+
 export default function GalleryGrid({ data, is_group }) {
 
     return (

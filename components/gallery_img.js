@@ -31,9 +31,6 @@ export default function GalleryImg({ img_data, is_group }) {
                     {img_data.desc != "" && <div className='tower-gallery-grid-group-text-container hidden group-hover:block'>
                         <p className={gallery_text_style}>{img_data.desc}</p>
                     </div>}
-
-
-
                 </div>
             </Link>
         )
@@ -54,9 +51,6 @@ export default function GalleryImg({ img_data, is_group }) {
                     {img_data.desc != "" && <div className='tower-gallery-grid-group-text-container hidden group-hover:block'>
                         <p className={gallery_text_style}>{img_data.desc}</p>
                     </div>}
-
-
-
                 </div>
             </Link>
         )
