@@ -507,6 +507,8 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+
+  margin-top: 20px;
 }
 
 .tower-gallery-grid-img {
@@ -516,7 +518,6 @@
 .tower-gallery-grid-img:hover {
   height: 345px;
   width: 345px;
-  
 }
 
 .tower-gallery-grid-group {
@@ -529,14 +530,14 @@
   height: 350px;
   width: 350px;
   text-align: center;
-  margin: 0px 20px 85px 20px;
+  margin: 0px 20px 125px 20px;
 }
 
 .tower-gallery-grid-group-text-container {
   background-color: var(--green-light);
   border: 5px solid var(--green-dark);
-  width: 250px;
   width: 100%;
+  padding: 5px;
 }
 
 .tower-gallery-grid-title {
@@ -548,5 +549,5 @@
 }
 
 .tower-gallery-grid-group-text{
-  @apply text-base text-center w-full h-13 text-lg
+  @apply text-base text-center w-full h-30 text-lg
 }

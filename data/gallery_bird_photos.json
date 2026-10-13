@@ -1,20 +1,32 @@
 {
     "1": {
         "ID": 1,
-        "name": "Artwork",
-        "src": "/assets/pfp.png",
-        "desc": "This is the first full drawing I did since attempting to get back into drawing. It's pretty rough, given both my rustiness and my lack of experience working with a tablet (most of my drawing was on paper with pencil/pen). I'm still happy I was able to finish it though, however rough it may be."
+        "name": "Female Black Duck & White Mallard",
+        "src": "https://i.imgur.com/hKHq3QW.jpeg",
+        "desc": "I wasn't sure quite sure what species the white duck is, it may be some domestic breed, but I figured white mallard was the best fit."
     },
     "2":{
         "ID": 2,
-        "name": "Chibi Draco Centauros",
-        "src": "https://i.imgur.com/yZ4n1B7.png",
-        "desc": "When I worked as a camp counsellor, I used to doodle a lot of chibi dracos like this while on bathroom watch. Sometimes I think its the only thing that got me through that job."
+        "name": "Immature Glaucous Gull",
+        "src": "https://i.imgur.com/HAOTLGu.jpeg",
+        "desc": "Very photogenic. Very difficult to ID in her immaturity."
     },
     "3":{
         "ID": 3,
-        "name": "House of Leaves Wallpaper",
-        "src": "https://w.wallhaven.cc/full/ly/wallhaven-ly8xzr.png",
-        "desc": "I wanted a wallpaper of the cover of house of leaves, but I couldn't find any decent scans, so I decided to remake it myself."
+        "name": "Greater Yellow Legs",
+        "src": "https://i.imgur.com/6rKqm6R.jpeg",
+        "desc": "Something about this one is very meditative. I love watching these guys walk around."
+    },
+    "4":{
+        "ID": 4,
+        "name": "Semi Palmated Plover",
+        "src": "https://i.imgur.com/iz4yMNK.jpeg",
+        "desc": "These guys love chasing the wave as it receeds and then flying away in a locus-esque swarm when it floods it. Highly entertaining."
+    },
+    "5":{
+        "ID": 5,
+        "name": "Cedar Waxwing",
+        "src": "https://i.imgur.com/SxB9nD2.jpeg",
+        "desc": "One of the prettiest birds I've ever seen. Their waxy texture is something that needs to be seen in person."
     }
 }

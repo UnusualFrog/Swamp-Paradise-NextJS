@@ -1,0 +1,32 @@
+{
+    "1": {
+        "ID": 1,
+        "name": "Female Black Duck & White Mallard",
+        "src": "https://i.imgur.com/hKHq3QW.jpeg",
+        "desc": "I wasn't sure quite sure what species the white duck is, it may be some domestic breed, but I figured white mallard was the best fit."
+    },
+    "2":{
+        "ID": 2,
+        "name": "Immature Glaucous Gull",
+        "src": "https://i.imgur.com/HAOTLGu.jpeg",
+        "desc": "Very photogenic. Very difficult to ID in her immaturity"
+    },
+    "3":{
+        "ID": 3,
+        "name": "Greater Yellow Legs",
+        "src": "https://i.imgur.com/6rKqm6R.jpeg",
+        "desc": "Something about this one is very meditative. I love watching these guys walk around."
+    },
+    "4":{
+        "ID": 4,
+        "name": "Semi Palmated Plover",
+        "src": "https://i.imgur.com/iz4yMNK.jpeg",
+        "desc": "These guys love chasing the wave as it receeds and then flying away in a locus-esque swarm when it floods it. Highly entertaining."
+    },
+    "5":{
+        "ID": 5,
+        "name": "Cedar Waxwing",
+        "src": "https://i.imgur.com/SxB9nD2.jpeg",
+        "desc": "One of the prettiest birds I've ever seen. Their waxy texture is something that needs to be seen in person"
+    }
+}
