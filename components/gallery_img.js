@@ -26,6 +26,7 @@ export default function GalleryImg({ img_data, is_group }) {
                         alt={img_data.desc}
                         className='tower-gallery-grid-img'
                         loading='eager'
+                        unoptimized='true'
                     ></Image>
                     {img_data.desc != "" && <div className='tower-gallery-grid-group-text-container hidden group-hover:block'>
                         <p className={gallery_text_style}>{img_data.desc}</p>

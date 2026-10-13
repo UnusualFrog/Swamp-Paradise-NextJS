@@ -1,0 +1,38 @@
+{
+    "1": {
+        "date": "2026/07/16",
+        "text": "Tag system fully functional"
+    },
+    "2": {
+        "date": "2026/07/17",
+        "text": "Blinkies Added; Home layout updated"
+    },
+    "3": {
+        "date": "2026/07/17",
+        "text": "Added Blinky SFX"
+    },
+    "4":{
+        "date": "2026/07/29",
+        "text": "More Blinkies!"
+    },
+    "5":{
+        "date": "2026/09/19",
+        "text": "Added an RSS feed"
+    },
+    "6":{
+        "date": "2026/09/20",
+        "text": "Added Titles to Blog Posts"
+    },
+    "7":{
+        "date": "2026/10/04",
+        "text": "Blinkies + SFX!"
+    },
+    "8":{
+        "date": "2026/10/07",
+        "text": "View blog posts by clicking timestamp"
+    },
+    "9":{
+        "date": "2026/10/13",
+        "text": "Gallery is live!"
+    }
+}

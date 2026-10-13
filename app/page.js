@@ -1,6 +1,7 @@
 import './globals.css';
 import Image from 'next/image';
 import Link from 'next/link'
+import { promises as fs } from 'fs';
 import localFont from 'next/font/local'
 import Blinky from '../components/blinky'
 
@@ -9,43 +10,6 @@ const myFont = localFont({
   src: '../font/cmu.typewriter-text-regular.ttf',
 })
 
-// Data for populating site update list
-const siteUpdates = [
-  {
-    date: "2026/07/16",
-    text: "Tag system fully functional"
-  },
-  {
-    date: "2026/07/17",
-    text: "Blinkies Added; Home layout updated"
-  },
-  {
-    date: "2026/07/17",
-    text: "Added Blinky SFX"
-  },
-  {
-    date: "2026/07/29",
-    text: "More Blinkies!"
-  },
-  {
-    date: "2026/09/19",
-    text: "Added an RSS feed"
-  },
-  {
-    date: "2026/09/20",
-    text: "Added Titles to Blog Posts"
-  },
-  {
-    date: "2026/10/04",
-    text: "Blinkies + SFX!"
-  },
-  {
-    date: "2026/10/07",
-    text: "View blog posts by clicking timestamp"
-  },
-  
-]
-
 // combine CSS classes with custom font
 const bio_text_style = 'bio-text  ' + myFont.className
 const bio_header_style = 'bio-header  ' + myFont.className
@@ -53,7 +17,17 @@ const pronoun_btn_style = 'pronoun-button-home ' + myFont.className
 const bio_link_text_style = 'bio-link-txt ' + myFont.className
 
 
-export default function Home() {
+export default async function Home() {
+  // Load site update data from json
+    const file = await fs.readFile(process.cwd() + '/data/blog_updates.json', 'utf8');
+    const data = JSON.parse(file);
+    const blog_update_data = [];
+
+    // Convert from object of objects to array of objects to allow for .map() usage )
+    for (let [, value] of Object.entries(data)) {
+        blog_update_data.push(value)
+    }
+
   return (
     <div className='h-500'>
       <div className='container-home'>
@@ -433,7 +407,7 @@ export default function Home() {
                   <div className='updates-content'>
                     <p className={bio_header_style}>==========UPDATES==========</p>
                     <ul className='updates-list'>
-                      {siteUpdates.reverse().map((x, i) => <li key={i} className={bio_text_style}>{x.date} - {x.text}</li>)}
+                      {blog_update_data.reverse().map((x, i) => <li key={i} className={bio_text_style}>{x.date} - {x.text}</li>)}
                     </ul>
                   </div>
                 </div>

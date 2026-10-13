@@ -509,8 +509,16 @@
   margin-bottom: 150px;
 }
 
+.tower-gallery-grid-group-img {
+  border: 5px solid var(--green-dark);
+}
+
 .tower-gallery-grid-img {
   border: 5px solid var(--green-dark);
+}
+
+.tower-gallery-grid-group:hover {
+   transform: scale(1.5);
 }
 
 .tower-gallery-grid-group {
