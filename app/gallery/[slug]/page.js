@@ -45,7 +45,7 @@ export default async function Page({ params }) {
                     </div>
 
                     <div className='tower-gallery-grid' >
-                        <GalleryGrid data={group_data}></GalleryGrid>
+                        <GalleryGrid data={group_data} is_group={false}></GalleryGrid>
                     </div>
 
                 </div>

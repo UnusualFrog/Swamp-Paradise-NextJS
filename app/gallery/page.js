@@ -39,7 +39,7 @@ export default function Home() {
                         </div>
 
                         <div className='tower-gallery-grid' >
-                            <GalleryGrid data={group_data}></GalleryGrid>
+                            <GalleryGrid data={group_data} is_group={true}></GalleryGrid>
                         </div>
 
                     </div>

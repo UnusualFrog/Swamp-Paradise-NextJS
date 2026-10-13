@@ -9,30 +9,54 @@ const myFont = localFont({
 const gallery_title_text_style = 'tower-gallery-grid-title ' + myFont.className
 const gallery_text_style = 'tower-gallery-grid-group-text ' + myFont.className
 
-export default function GalleryImg(data) {
-    let pathName = data.img_data.name.toLowerCase().replace(" ", "_")
+export default function GalleryImg({ img_data, is_group }) {
+    let pathName = img_data.name.toLowerCase().replace(" ", "_")
 
     const href = "/gallery/" + pathName
-    return (
-        <Link href={href} key={data.img_data.ID}>
-            <div className='tower-gallery-grid-group group'>
-                <p className={gallery_title_text_style}>{data.img_data.name}</p>
-                <Image
-                    src={data.img_data.src}
-                    width={350}
-                    height={350}
-                    alt={data.img_data.desc}
-                    className='tower-gallery-grid-img'
-                    loading='eager'
-                ></Image>
-                <div className='tower-gallery-grid-group-text-container hidden group-hover:block'>
-                    <p className={gallery_text_style}>{data.img_data.desc}</p>
+
+    if (is_group) {
+        return (
+            <Link href={href} key={img_data.ID}>
+                <div className='tower-gallery-grid-group group'>
+                    <p className={gallery_title_text_style}>{img_data.name}</p>
+                    <Image
+                        src={img_data.src}
+                        width={350}
+                        height={350}
+                        alt={img_data.desc}
+                        className='tower-gallery-grid-img'
+                        loading='eager'
+                    ></Image>
+                    <div className='tower-gallery-grid-group-text-container hidden group-hover:block'>
+                        <p className={gallery_text_style}>{img_data.desc}</p>
+                    </div>
+
+
+
                 </div>
+            </Link>
+        )
+    } else {
+        return (
+            <Link href={img_data.src} key={img_data.ID}>
+                <div className='tower-gallery-grid-group group'>
+                    <p className={gallery_title_text_style}>{img_data.name}</p>
+                    <Image
+                        src={img_data.src}
+                        width={350}
+                        height={350}
+                        alt={img_data.desc}
+                        className='tower-gallery-grid-img'
+                        loading='eager'
+                    ></Image>
+                    <div className='tower-gallery-grid-group-text-container hidden group-hover:block'>
+                        <p className={gallery_text_style}>{img_data.desc}</p>
+                    </div>
 
 
 
-            </div>
-        </Link>
-
-    )
+                </div>
+            </Link>
+        )
+    }
 }
