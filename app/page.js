@@ -295,6 +295,10 @@ export default async function Home() {
                       // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
+                      imgPath="/blinkies/curly_trans.jpg"
+                      // audioPath="/mp3/sandra_lee.mp3"
+                    ></Blinky>
+                    <Blinky
                       imgPath="/blinkies/only_garlic.png"
                       // audioPath="/mp3/"
                     ></Blinky>
@@ -349,6 +353,14 @@ export default async function Home() {
                     <Blinky
                       imgPath="/blinkies/billy_mays.gif"
                       audioPath="/mp3/billy_mays_here.mp3"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/sandra_lee.png"
+                      // audioPath="/mp3/sandra_lee.mp3"
+                    ></Blinky>
+                    <Blinky
+                      imgPath="/blinkies/house_of_leaves_trans.jpg"
+                      // audioPath="/mp3/sandra_lee.mp3"
                     ></Blinky>
                   </div>
                 </div>
