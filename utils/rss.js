@@ -14,7 +14,7 @@ export default async function generateRssFeed(allPosts) {
         description: "Welcome to Swamp Paradise!",
         site_url: site_url,
         feed_url: `${site_url}/rss.xml`,
-        image_url: `${site_url}/pfp.png`,
+        image_url: `https://i.imgur.com/jnxhX3i.png`,
         pubDate: new Date(),
         // copyright: `All rights reserved ${new Date().getFullYear()}`,
         custom_namespaces: {
