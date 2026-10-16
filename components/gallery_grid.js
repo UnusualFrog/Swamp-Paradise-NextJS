@@ -1,7 +1,7 @@
 import GalleryImg from '../components/gallery_img'
 
 function splitThree(arr) {
-    let split_1 = Math.floor(arr.length / 3);
+    let split_1 = Math.ceil(arr.length / 3);
     let split_2 = split_1 * 2;
 
     return [arr.slice(0,split_1), arr.slice(split_1, split_2), arr.slice(split_2, arr.length)]
