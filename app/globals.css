@@ -226,7 +226,7 @@
 }
 
 .blinky-img-flex:hover {
-  height: 65px;
+  transform: scale(1.5);
 }
 
 .bio-right-col {
