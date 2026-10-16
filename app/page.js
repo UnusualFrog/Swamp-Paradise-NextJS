@@ -19,14 +19,14 @@ const bio_link_text_style = 'bio-link-txt ' + myFont.className
 
 export default async function Home() {
   // Load site update data from json
-    const file = await fs.readFile(process.cwd() + '/data/blog_updates.json', 'utf8');
-    const data = JSON.parse(file);
-    const blog_update_data = [];
+  const file = await fs.readFile(process.cwd() + '/data/blog_updates.json', 'utf8');
+  const data = JSON.parse(file);
+  const blog_update_data = [];
 
-    // Convert from object of objects to array of objects to allow for .map() usage )
-    for (let [, value] of Object.entries(data)) {
-        blog_update_data.push(value)
-    }
+  // Convert from object of objects to array of objects to allow for .map() usage )
+  for (let [, value] of Object.entries(data)) {
+    blog_update_data.push(value)
+  }
 
   return (
     <div className='h-500'>
@@ -86,11 +86,11 @@ export default async function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/autism.gif"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/axolotl.gif"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/boat_o_cross.png"
@@ -116,15 +116,15 @@ export default async function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/dvd_bounce.gif"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/tf2_heavy_stare.webp"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/dvd_slot.gif"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/eat_pant.png"
@@ -140,11 +140,11 @@ export default async function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/gimp_user.jpg"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/got_html.jpg"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/indica_girlie.gif"
@@ -152,7 +152,7 @@ export default async function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/keroppi.gif"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath={"/blinkies/jerma.gif"}
@@ -160,7 +160,7 @@ export default async function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/bad_web_design.gif"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/i_block_ads.gif"
@@ -172,7 +172,7 @@ export default async function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/i_saw_the_bodies.gif"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/tf2_sanvich_trans.png"
@@ -180,11 +180,11 @@ export default async function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/blinkie_collector.gif"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/blinky_smile.gif"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/dt_mew_mew.webp"
@@ -192,7 +192,7 @@ export default async function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/he_smells_your_sins.gif"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/i_eat_moss.gif"
@@ -200,27 +200,27 @@ export default async function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/ivy_quinn_yuri.png"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/i_heart_mushroom.gif"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/chili_dog.png"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/cutie_honey.gif"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/i_feel_fantastic.png"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/i_like_birds.webp"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/tf2_spy_hanging.webp"
@@ -228,7 +228,7 @@ export default async function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/kitty_stamp.jpg"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/mew_mew_peace.png"
@@ -240,7 +240,7 @@ export default async function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/mouthwashing.webp"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/tf2_scout_thumb.webp"
@@ -248,11 +248,11 @@ export default async function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/mr_electric.png"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/my_house.webp"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/pronoun_man.png"
@@ -260,63 +260,63 @@ export default async function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/sonic_pink.png"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/soup.png"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/system_32.gif"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/ramona_heart.jpg"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/old_web.png"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/compile_carbuncle.webp"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/lain_eyes.webp"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/minecraft.webp"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/msicon_email.webp"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/curly_trans.jpg"
-                      // audioPath="/mp3/sandra_lee.mp3"
+                    // audioPath="/mp3/sandra_lee.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/only_garlic.png"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/carbuncle_new.webp"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/purble_palace.webp"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/cube_carbuncle.webp"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/club_penguin.webp"
-                      // audioPath="/mp3/"
+                    // audioPath="/mp3/"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/vriska_serket.webp"
@@ -356,11 +356,11 @@ export default async function Home() {
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/sandra_lee.png"
-                      // audioPath="/mp3/sandra_lee.mp3"
+                    // audioPath="/mp3/sandra_lee.mp3"
                     ></Blinky>
                     <Blinky
                       imgPath="/blinkies/house_of_leaves_trans.jpg"
-                      // audioPath="/mp3/sandra_lee.mp3"
+                    // audioPath="/mp3/sandra_lee.mp3"
                     ></Blinky>
                   </div>
                 </div>
