@@ -1,13 +1,13 @@
 {
     "1":{
-        "ID": 3,
+        "ID": 1,
         "name": "House of Leaves Wallpaper",
         "src": "https://w.wallhaven.cc/full/ly/wallhaven-ly8xzr.png",
         "desc": "I wanted a wallpaper of the cover of house of leaves, but I couldn't find any decent scans, so I decided to remake it myself."
     },
     "2": {
-        "ID": 1,
-        "name": "Artwork",
+        "ID": 2,
+        "name": "Breaking off the rust",
         "src": "https://i.imgur.com/o23FBTu.png",
         "desc": "This is the first full illustration I did since attempting to get back into drawing. It's pretty rough, given both my rustiness and my lack of experience working with a tablet (most of my drawing was on paper with pencil/pen). I'm still happy I was able to finish it though, however rough it may be."
     },
@@ -16,5 +16,47 @@
         "name": "Chibi Draco Centauros",
         "src": "https://i.imgur.com/yZ4n1B7.png",
         "desc": "When I worked as a camp counsellor, I used to doodle a lot of chibi dracos like this while on bathroom watch. Sometimes I think its the only thing that got me through that job."
+    },
+    "4":{
+        "ID": 4,
+        "name": "Classic Sonic w/ New Setup",
+        "src": "https://i.imgur.com/920HqfL.png",
+        "desc": "I was going for Toei sonic, but old archie bled in too. First time w/ new tablet setup, my awesome GF attached a sketch book page to the top to give the tablet grain. It was a huge improvement for me."
+    },
+    "5":{
+        "ID": 5,
+        "name": "Old Art #1: Cubism Frog",
+        "src": "https://i.imgur.com/VqcdG4M.jpeg",
+        "desc": "This was a cubist piece I did in highschool. I remember having a pretty tough time getting the blending right around the frog's face"
+    },
+    "6":{
+        "ID": 6,
+        "name": "Old Art #2: Two-Point Perspective City",
+        "src": "https://i.imgur.com/yvgdDD6.jpeg",
+        "desc": "I've always been quite fond of perspective pieces, and I'm quite proud of the shading on this one. Excuse my horrible handwriting though lol."
+    },
+    "7":{
+        "ID": 7,
+        "name": "Old Art #3: Covid Era Album Cover",
+        "src": "https://i.imgur.com/MoPePqH.jpeg",
+        "desc": "Homestuck vol.5 x Animal Crossing. This is probably the most covid image I have."
+    },
+    "8":{
+        "ID": 8,
+        "name": "Old Art #4: Covid Era Homestuck Crossover",
+        "src": "https://i.imgur.com/BzWT1fj.jpeg",
+        "desc": "Homestuck x Naruto, this one may actually be more covid than the last."
+    },
+    "9":{
+        "ID": 9,
+        "name": "Old Art #5: Mystery Girl (Still Covid Era)",
+        "src": "https://i.imgur.com/7UW95Gm.jpeg",
+        "desc": "A mystery girl I sketched at some point. I don't know what her deal is but she has spunk"
+    },
+    "10":{
+        "ID": 10,
+        "name": "Old Art #6: Kanaya (Covid) Maryam",
+        "src": "https://i.imgur.com/PagpJ7Y.jpeg",
+        "desc": "A fairly decent Kanaya. Shes always been my favorite troll, which in retrospect may have been a sign 🏳️‍⚧️"
     }
 }
