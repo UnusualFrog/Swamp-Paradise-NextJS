@@ -4,6 +4,8 @@ import Link from 'next/link'
 import { promises as fs } from 'fs';
 import localFont from 'next/font/local'
 import Blinky from '../components/blinky'
+import { headers } from "next/headers";
+import { isMobileDevice } from "../utils/deviceDetection";
 
 // Import Local Font
 const myFont = localFont({
@@ -28,411 +30,431 @@ export default async function Home() {
     blog_update_data.push(value)
   }
 
-  return (
-    <div className='h-500'>
-      <div className='container-home'>
+  // Check device type
+  const headersList = await headers();
+  const userAgent = headersList.get("user-agent") || "";
+  const isMobile = isMobileDevice(userAgent);
 
-        {/* Tower Contents */}
-        <div className='tower-home'>
 
-          {/* Shadow */}
-          <div className='tower-home-shadow'></div>
 
-          {/* Actual Content */}
-          <div className='tower-home-content-base'>
+  return isMobile == false ?
 
-            <div className='bio-base'>
+    // Desktop Layout
+    (
+      <div className='h-500'>
+        <div className='container-home'>
 
-              <div className='bio-left-col'>
+          {/* Tower Contents */}
+          <div className='tower-home'>
 
-                {/* BIO DESCRIPTION & PFP */}
-                <div className='bio-content'>
+            {/* Shadow */}
+            <div className='tower-home-shadow'></div>
 
-                  <div className="bio-pfp-col">
-                    <Image
-                      src="/assets/pfp.png"
-                      width={1920}
-                      height={1080}
-                      alt="Picture of the author"
-                      className="pfp-home"
-                      loading="eager"
-                    ></Image>
-                    <button disabled={true} className={pronoun_btn_style}>♀️ - She/Her</button>
+            {/* Actual Content */}
+            <div className='tower-home-content-base'>
+
+              <div className='bio-base'>
+
+                <div className='bio-left-col'>
+
+                  {/* BIO DESCRIPTION & PFP */}
+                  <div className='bio-content'>
+
+                    <div className="bio-pfp-col">
+                      <Image
+                        src="/assets/pfp.png"
+                        width={1920}
+                        height={1080}
+                        alt="Picture of the author"
+                        className="pfp-home"
+                        loading="eager"
+                      ></Image>
+                      <button disabled={true} className={pronoun_btn_style}>♀️ - She/Her</button>
+                    </div>
+
+                    <div className="bio-text-container">
+                      <p className={bio_header_style}>==========BIO==========</p>
+                      <p className={bio_text_style}>
+                        Welcome to my Site! This is my creative outlet.
+                        I&apos;m a programmer and I like to dabble in digital art & game dev.
+                        Checkout my blog for thoughts on birds, and other less important things.
+                      </p>
+                    </div>
+
+
                   </div>
 
-                  <div className="bio-text-container">
-                    <p className={bio_header_style}>==========BIO==========</p>
-                    <p className={bio_text_style}>
-                      Welcome to my Site! This is my creative outlet.
-                      I&apos;m a programmer and I like to dabble in digital art & game dev.
-                      Checkout my blog for thoughts on birds, and other less important things.
-                    </p>
+                  {/* BLINKIES */}
+                  <div className='bio-blinkies-container'>
+                    <p className={bio_header_style}>===========BLINKIES===========</p>
+                    <div className='bio-blinkies-content'>
+                      <Blinky
+                        imgPath="/blinkies/anything_but_chrome.gif"
+                        audioPath="/mp3/spongebob_stink.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/annoying_dog.webp"
+                        audioPath="/mp3/toby_fox_dog.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/autism.gif"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/axolotl.gif"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/boat_o_cross.png"
+                        audioPath="/mp3/la_cucaracha.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/city_stars.gif"
+                        audioPath="/mp3/la_cucaracha.mp3"
+                        width={35}
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/da_blinkie.gif"
+                        audioPath="/mp3/da_vinky.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/deltarune_dance.webp"
+                        audioPath="/mp3/ralsei_splat.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/doom_hud.gif"
+                        audioPath="/mp3/doom_shotgun.mp3"
+                        width={35}
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/dvd_bounce.gif"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/tf2_heavy_stare.webp"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/dvd_slot.gif"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/eat_pant.png"
+                        audioPath="/mp3/eat_pant.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/eddsworld.gif"
+                        audioPath="/mp3/eddsworld.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/ghastly_rainbow.gif"
+                        audioPath="/mp3/ghastly_cry.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/gimp_user.jpg"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/got_html.jpg"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/indica_girlie.gif"
+                        audioPath="/mp3/bong.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/keroppi.gif"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath={"/blinkies/jerma.gif"}
+                        audioPath={"/mp3/teacher_jerma.mp3"}
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/bad_web_design.gif"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/i_block_ads.gif"
+                        audioPath="/mp3/portal2_buzzer.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/i_heart_dolphins.gif"
+                        audioPath="/mp3/spongebob_dolphin.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/i_saw_the_bodies.gif"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/tf2_sanvich_trans.png"
+                        audioPath="/mp3/heavy_eat.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/blinkie_collector.gif"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/blinky_smile.gif"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/dt_mew_mew.webp"
+                        audioPath="/mp3/pink_cry.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/he_smells_your_sins.gif"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/i_eat_moss.gif"
+                        audioPath="/mp3/dt_found_moss.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/ivy_quinn_yuri.png"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/i_heart_mushroom.gif"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/chili_dog.png"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/cutie_honey.gif"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/i_feel_fantastic.png"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/i_like_birds.webp"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/tf2_spy_hanging.webp"
+                        audioPath="/mp3/tf2_spy_hang.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/kitty_stamp.jpg"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/mew_mew_peace.png"
+                        audioPath="/mp3/pink_gasp.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/minecraft_with_gadget.png"
+                        audioPath="/mp3/brown_bricks.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/mouthwashing.webp"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/tf2_scout_thumb.webp"
+                        audioPath="/mp3/tf2_scout_burning.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/mr_electric.png"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/my_house.webp"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/pronoun_man.png"
+                        audioPath="/mp3/howard_one_piece.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/sonic_pink.png"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/soup.png"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/system_32.gif"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/ramona_heart.jpg"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/old_web.png"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/compile_carbuncle.webp"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/lain_eyes.webp"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/minecraft.webp"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/msicon_email.webp"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/curly_trans.jpg"
+                      // audioPath="/mp3/sandra_lee.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/only_garlic.png"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/carbuncle_new.webp"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/purble_palace.webp"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/cube_carbuncle.webp"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/club_penguin.webp"
+                      // audioPath="/mp3/"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/vriska_serket.webp"
+                        audioPath="/mp3/vriska_laugh.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/tf2_coconut.png"
+                        audioPath="/mp3/coconut.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/pink_laugh_stomp.webp"
+                        audioPath="/mp3/pink_laugh.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/make_her_pay.webp"
+                        audioPath="/mp3/vriska_laugh.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/labour_day_jerma.png"
+                        audioPath="/mp3/sparkle.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/trans_pukeko.jpg"
+                        audioPath="/mp3/pukeko.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/meet_the_spy.gif"
+                        audioPath="/mp3/i_am_the_spy.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/catgirl_2008.jpg"
+                        audioPath="/mp3/meow.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/billy_mays.gif"
+                        audioPath="/mp3/billy_mays_here.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/sandra_lee.png"
+                      // audioPath="/mp3/sandra_lee.mp3"
+                      ></Blinky>
+                      <Blinky
+                        imgPath="/blinkies/house_of_leaves_trans.jpg"
+                      // audioPath="/mp3/sandra_lee.mp3"
+                      ></Blinky>
+                    </div>
                   </div>
-
 
                 </div>
 
-                {/* BLINKIES */}
-                <div className='bio-blinkies-container'>
-                  <p className={bio_header_style}>===========BLINKIES===========</p>
-                  <div className='bio-blinkies-content'>
-                    <Blinky
-                      imgPath="/blinkies/anything_but_chrome.gif"
-                      audioPath="/mp3/spongebob_stink.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/annoying_dog.webp"
-                      audioPath="/mp3/toby_fox_dog.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/autism.gif"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/axolotl.gif"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/boat_o_cross.png"
-                      audioPath="/mp3/la_cucaracha.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/city_stars.gif"
-                      audioPath="/mp3/la_cucaracha.mp3"
-                      width={35}
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/da_blinkie.gif"
-                      audioPath="/mp3/da_vinky.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/deltarune_dance.webp"
-                      audioPath="/mp3/ralsei_splat.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/doom_hud.gif"
-                      audioPath="/mp3/doom_shotgun.mp3"
-                      width={35}
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/dvd_bounce.gif"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/tf2_heavy_stare.webp"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/dvd_slot.gif"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/eat_pant.png"
-                      audioPath="/mp3/eat_pant.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/eddsworld.gif"
-                      audioPath="/mp3/eddsworld.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/ghastly_rainbow.gif"
-                      audioPath="/mp3/ghastly_cry.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/gimp_user.jpg"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/got_html.jpg"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/indica_girlie.gif"
-                      audioPath="/mp3/bong.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/keroppi.gif"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath={"/blinkies/jerma.gif"}
-                      audioPath={"/mp3/teacher_jerma.mp3"}
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/bad_web_design.gif"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/i_block_ads.gif"
-                      audioPath="/mp3/portal2_buzzer.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/i_heart_dolphins.gif"
-                      audioPath="/mp3/spongebob_dolphin.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/i_saw_the_bodies.gif"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/tf2_sanvich_trans.png"
-                      audioPath="/mp3/heavy_eat.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/blinkie_collector.gif"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/blinky_smile.gif"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/dt_mew_mew.webp"
-                      audioPath="/mp3/pink_cry.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/he_smells_your_sins.gif"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/i_eat_moss.gif"
-                      audioPath="/mp3/dt_found_moss.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/ivy_quinn_yuri.png"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/i_heart_mushroom.gif"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/chili_dog.png"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/cutie_honey.gif"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/i_feel_fantastic.png"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/i_like_birds.webp"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/tf2_spy_hanging.webp"
-                      audioPath="/mp3/tf2_spy_hang.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/kitty_stamp.jpg"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/mew_mew_peace.png"
-                      audioPath="/mp3/pink_gasp.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/minecraft_with_gadget.png"
-                      audioPath="/mp3/brown_bricks.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/mouthwashing.webp"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/tf2_scout_thumb.webp"
-                      audioPath="/mp3/tf2_scout_burning.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/mr_electric.png"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/my_house.webp"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/pronoun_man.png"
-                      audioPath="/mp3/howard_one_piece.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/sonic_pink.png"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/soup.png"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/system_32.gif"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/ramona_heart.jpg"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/old_web.png"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/compile_carbuncle.webp"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/lain_eyes.webp"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/minecraft.webp"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/msicon_email.webp"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/curly_trans.jpg"
-                    // audioPath="/mp3/sandra_lee.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/only_garlic.png"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/carbuncle_new.webp"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/purble_palace.webp"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/cube_carbuncle.webp"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/club_penguin.webp"
-                    // audioPath="/mp3/"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/vriska_serket.webp"
-                      audioPath="/mp3/vriska_laugh.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/tf2_coconut.png"
-                      audioPath="/mp3/coconut.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/pink_laugh_stomp.webp"
-                      audioPath="/mp3/pink_laugh.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/make_her_pay.webp"
-                      audioPath="/mp3/vriska_laugh.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/labour_day_jerma.png"
-                      audioPath="/mp3/sparkle.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/trans_pukeko.jpg"
-                      audioPath="/mp3/pukeko.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/meet_the_spy.gif"
-                      audioPath="/mp3/i_am_the_spy.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/catgirl_2008.jpg"
-                      audioPath="/mp3/meow.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/billy_mays.gif"
-                      audioPath="/mp3/billy_mays_here.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/sandra_lee.png"
-                    // audioPath="/mp3/sandra_lee.mp3"
-                    ></Blinky>
-                    <Blinky
-                      imgPath="/blinkies/house_of_leaves_trans.jpg"
-                    // audioPath="/mp3/sandra_lee.mp3"
-                    ></Blinky>
+                <div className='bio-right-col'>
+
+                  {/* LINKS */}
+                  <div className='bio-links'>
+                    <p className={bio_header_style}>===========LINKS===========</p>
+
+                    <Link href="https://unusualfrog.itch.io/">
+                      <Image
+                        src="https://static.itch.io/images/logo-black-new.svg"
+                        width={400}
+                        height={400}
+                        alt="Itchio.io Logo"
+                        className="bio-links-img"
+                        loading="eager"
+                      ></Image>
+                      <p className='text-center'>---------------------------------------------------------------------</p>
+                      <p className={bio_link_text_style}>My games! (Playable in browser)</p>
+                    </Link>
+
+                    <Link href="https://www.youtube.com/@unusualfrog779">
+                      <Image
+                        src="/assets/logo_yt_bk.png"
+                        width={400}
+                        height={400}
+                        alt="Youtube Logo"
+                        className="bio-links-img"
+                        loading="eager"
+                      ></Image>
+                      <p className='text-center'>---------------------------------------------------------------------</p>
+                      <p className={bio_link_text_style}>Various art projects and shitposts</p>
+                    </Link>
+
+                    <Link href="https://swamp-paradise-website.vercel.app/rss.xml">
+                      <Image
+                        src="https://cdn-icons-png.flaticon.com/512/25/25367.png"
+                        width={400}
+                        height={400}
+                        alt="RSS Feed Logo"
+                        className="bio-links-img-rss"
+                        loading="eager"
+                      ></Image>
+                      <p className='text-center'>---------------------------------------------------------------------</p>
+                      <p className={bio_link_text_style}>RSS Feed for the blog</p>
+                    </Link>
+
+                  </div>
+
+                  {/* SITE UPDATES */}
+                  <div className='updates-base'>
+                    <div className='updates-content'>
+                      <p className={bio_header_style}>==========UPDATES==========</p>
+                      <ul className='updates-list'>
+                        {blog_update_data.reverse().map((x, i) => <li key={i} className={bio_text_style}>{x.date} - {x.text}</li>)}
+                      </ul>
+                    </div>
                   </div>
                 </div>
+
 
               </div>
-
-              <div className='bio-right-col'>
-
-                {/* LINKS */}
-                <div className='bio-links'>
-                  <p className={bio_header_style}>===========LINKS===========</p>
-
-                  <Link href="https://unusualfrog.itch.io/">
-                    <Image
-                      src="https://static.itch.io/images/logo-black-new.svg"
-                      width={400}
-                      height={400}
-                      alt="Itchio.io Logo"
-                      className="bio-links-img"
-                      loading="eager"
-                    ></Image>
-                    <p className='text-center'>---------------------------------------------------------------------</p>
-                    <p className={bio_link_text_style}>My games! (Playable in browser)</p>
-                  </Link>
-
-                  <Link href="https://www.youtube.com/@unusualfrog779">
-                    <Image
-                      src="/assets/logo_yt_bk.png"
-                      width={400}
-                      height={400}
-                      alt="Youtube Logo"
-                      className="bio-links-img"
-                      loading="eager"
-                    ></Image>
-                    <p className='text-center'>---------------------------------------------------------------------</p>
-                    <p className={bio_link_text_style}>Various art projects and shitposts</p>
-                  </Link>
-
-                  <Link href="https://swamp-paradise-website.vercel.app/rss.xml">
-                    <Image
-                      src="https://cdn-icons-png.flaticon.com/512/25/25367.png"
-                      width={400}
-                      height={400}
-                      alt="RSS Feed Logo"
-                      className="bio-links-img-rss"
-                      loading="eager"
-                    ></Image>
-                    <p className='text-center'>---------------------------------------------------------------------</p>
-                    <p className={bio_link_text_style}>RSS Feed for the blog</p>
-                  </Link>
-
-                </div>
-
-                {/* SITE UPDATES */}
-                <div className='updates-base'>
-                  <div className='updates-content'>
-                    <p className={bio_header_style}>==========UPDATES==========</p>
-                    <ul className='updates-list'>
-                      {blog_update_data.reverse().map((x, i) => <li key={i} className={bio_text_style}>{x.date} - {x.text}</li>)}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
 
             </div>
 
           </div>
 
         </div>
-
       </div>
-    </div>
-  );
+    ) :
+    // Mobile Layout
+    (
+      <div className='container-home'>
+        <div className='tower-home-shadow'>
+          <div className='tower-home-content-base'>
+            test
+          </div>
+        </div>
+      </div>
+    )
 }
